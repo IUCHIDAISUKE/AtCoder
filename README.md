@@ -13,7 +13,7 @@
 - [x] Probrem5
   - [x] sim Problem5
 - [x] Probrem6
-  - [ ] sim Problem6
+  - [x] sim Problem6
 - [x] Probrem7
   - [ ] sim Problem7
 - [x] Probrem8
