@@ -15,7 +15,7 @@
 - [x] Probrem6
   - [x] sim Problem6
 - [x] Probrem7
-  - [ ] sim Problem7
+  - [x] sim Problem7
 - [x] Probrem8
   - [ ] sim Problem8
 - [x] Probrem9

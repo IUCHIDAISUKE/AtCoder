@@ -11,9 +11,9 @@ typedef long long ll;
 
 int main()
 {
-	string s, t;
-	cin >> s >> t;
+	int n;
+	cin >> n;
 
-	printf("%c%d%c\n", s[0], s.size() - 2, s[s.size() - 1]);
-	return 0;
+	cout << (n + 1) / 2 << endl;
+	return (0);
 }

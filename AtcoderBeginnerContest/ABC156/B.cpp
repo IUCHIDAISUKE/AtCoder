@@ -8,12 +8,20 @@ typedef long long ll;
 #define all(a) (a).begin(), (a).end()
 #define all2(a, b) (a).begin(), (a).begin() + (b)
 #define debug(vari) cerr << #vari << " = " << (vari) << endl;
+const int MOD = 1e9 + 7;
 
 int main()
 {
-	string s, t;
-	cin >> s >> t;
+	int n, k;
+	cin >> n >> k;
 
-	printf("%c%d%c\n", s[0], s.size() - 2, s[s.size() - 1]);
-	return 0;
+	int ans = 0;
+	while (n)
+	{
+		ans++;
+		n /= k;
+	}
+	cout << ans << endl;
+
+	return (0);
 }

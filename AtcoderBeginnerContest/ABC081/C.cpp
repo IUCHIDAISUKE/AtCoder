@@ -13,31 +13,55 @@ int main()
 {
     int n, k;
     cin >> n >> k;
-    vector<int> a(n);
-    rep(i, n) cin >> a[i];
+    vector<int> a(n + 1);
+    rep(i, n)
+    {
+        int tmp;
+        cin >> tmp;
+        a[tmp]++;
+    }
 
-    set<int> s;
-    rep(i, n) s.insert(a[i]);
+    sort(all(a));
+    reverse(all(a));
 
     int ans = 0;
-    vector<int> ck(200000, 0);
-    rep(i, n) ck[a[i]]++;
-    sort(all(ck));
-
-    if (s.size() > k)
+    rep(i, k)
     {
-        int num = s.size() - k;
-        int i = 0;
-        while (num)
-        {
-            if (ck[i] > 0)
-            {
-                num--;
-                ans += ck[i];
-            }
-            i++;
-        }
+        ans += a[i];
     }
-    cout << ans << endl;
+    cout << n - ans << endl;
     return 0;
 }
+
+// int main()
+// {
+//     int n, k;
+//     cin >> n >> k;
+//     vector<int> a(n);
+//     rep(i, n) cin >> a[i];
+
+//     set<int> s;
+//     rep(i, n) s.insert(a[i]);
+
+//     int ans = 0;
+//     vector<int> ck(200000, 0);
+//     rep(i, n) ck[a[i]]++;
+//     sort(all(ck));
+
+//     if (s.size() > k)
+//     {
+//         int num = s.size() - k;
+//         int i = 0;
+//         while (num)
+//         {
+//             if (ck[i] > 0)
+//             {
+//                 num--;
+//                 ans += ck[i];
+//             }
+//             i++;
+//         }
+//     }
+//     cout << ans << endl;
+//     return 0;
+// }
