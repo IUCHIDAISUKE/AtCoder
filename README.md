@@ -22,3 +22,20 @@
   - [ ] sim Problem9
 - [x] Probrem10
   - [ ] sim Problem10
+
+[レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
+
+- [x] ABC144 B
+- [x] ABC150 B
+- [x] ABC122 B
+- [x] ABC136 B
+- [x] ABC106 B
+- [x] ABC120 B
+- [x] ABC057 C
+- [x] ABC095 C
+- [ ] 三井住友信託銀行プログラミングコンテスト 2019 D
+- [ ] ABC128 C
+- [ ] ABC147 C
+- [ ] ABC145 C
+- [ ] ABC150 C
+- [ ] ABC054 C
