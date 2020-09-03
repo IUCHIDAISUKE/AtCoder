@@ -6,42 +6,44 @@ typedef long long ll;
 #define rep(i, n) for (int i = 0; i < (n); i++)
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
-#define all2(a, b) (a).begin(), (a).begin() + (b)
-#define debug(vari) cerr << #vari << " = " << (vari) << endl;
-
-int ck(int a, int b)
-{
-    int t_a = 0, t_b = 0;
-    while (a)
-    {
-        t_a++;
-        a /= 10;
-    }
-    while (b)
-    {
-        t_b++;
-        b /= 10;
-    }
-
-    return max(t_a, t_b);
-}
 
 int main()
 {
-    int n;
-    cin >> n;
+	int x, y;
+	cin >> x >> y;
 
-    int ans = 1001001001;
-    for (int a = 1; a * a <= n; a++)
-    {
-        if (n % a != 0)
-        {
-            continue;
-        }
-        int b = n / a;
-        ans = min(ans, ck(a, b));
-    }
+	vector<int> dx = {1, 0, -1, 0};
+	vector<int> dy = {0, -1, 0, 1};
 
-    cout << ans << endl;
-    return 0;
+	vector<string> board(x);
+	rep(i, x) cin >> board[i];
+
+	rep(i, x)
+	{
+		rep(j, y)
+		{
+			if (board[i][j] == '#')
+			{
+				int cnt = 0;
+				rep(k, 4)
+				{
+					int xx = i + dx[k];
+					int yy = j + dy[k];
+
+					if (0 <= xx && xx < x && 0 <= yy && yy < y && board[xx][yy] == '#')
+					{
+						cnt++;
+					}
+				}
+				if (!cnt)
+				{
+					cout << "No" << '\n';
+					return 0;
+				}
+			}
+		}
+	}
+
+	cout << "Yes" << '\n';
+	return 0;
 }

@@ -21,7 +21,14 @@
 - [x] Probrem9
   - [ ] sim Problem9
 - [x] Probrem10
-  - [ ] sim Problem10
+  - [x] sim Problem10
+- [x] Grid problems
+- [x] Sectional overlap
+- [x] 1000000007 probrem
+- [x] Mathmatic probrem
+- [x] Loop simulation
+- [x] Cumulate sum
+- [x] Bit full search
 
 [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
 
@@ -36,6 +43,6 @@
 - [ ] 三井住友信託銀行プログラミングコンテスト 2019 D
 - [ ] ABC128 C
 - [ ] ABC147 C
-- [ ] ABC145 C
-- [ ] ABC150 C
+- [x] ABC145 C
+- [x] ABC150 C
 - [ ] ABC054 C
