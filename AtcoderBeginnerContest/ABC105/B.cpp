@@ -11,8 +11,8 @@ typedef long long ll;
 
 int main()
 {
-    int n;
-    cin >> n;
+    int n, m;
+    cin >> n >> m;
 
     string ans = "No";
     rep(i, n / 4 + 1)

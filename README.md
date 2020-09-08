@@ -46,3 +46,12 @@
 - [x] ABC145 C
 - [x] ABC150 C
 - [ ] ABC054 C
+
+[たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
+
+- [x] ABC136 B
+- [x] ABC068 B
+- [x] ABC133 B
+- [x] 三井住友信託銀行プログラミングコンテスト 2019 B
+- [x] M-SOLUTIONS プロコンオープン 2020 B
+- [x] ABC157 C
