@@ -55,3 +55,13 @@
 - [x] 三井住友信託銀行プログラミングコンテスト 2019 B
 - [x] M-SOLUTIONS プロコンオープン 2020 B
 - [x] ABC157 C
+- [x] ABC095 C
+- [ ] ABC112 C
+- [x] ABC057 C
+- [x] square869120Contest #6 B
+- [ ] 三井住友信託銀行プログラミングコンテスト 2019 C
+- [x] ABC089 C
+- [ ] ABC128 C
+- [ ] ABC147 C
+- [ ] ABC167 C
+- [ ] square869120Contest #4 B

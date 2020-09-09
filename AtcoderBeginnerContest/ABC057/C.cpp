@@ -2,46 +2,46 @@
 
 using namespace std;
 typedef long long ll;
+using P = pair<int, int>;
 
 #define rep(i, n) for (int i = 0; i < (n); i++)
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
-#define all2(a, b) (a).begin(), (a).begin() + (b)
-#define debug(vari) cerr << #vari << " = " << (vari) << endl;
 
-int ck(ll a, ll b)
+ll keta(ll a, ll b)
 {
-    int t_a = 0, t_b = 0;
+    int cnt_a = 0, cnt_b = 0;
     while (a)
     {
-        t_a++;
+        cnt_a++;
         a /= 10;
     }
     while (b)
     {
-        t_b++;
+        cnt_b++;
         b /= 10;
     }
-
-    return max(t_a, t_b);
+    ll ans = max(cnt_a, cnt_b);
+    return ans;
 }
 
 int main()
 {
+
     ll n;
     cin >> n;
 
-    int ans = 1001001001;
+    ll ans = 1001001001;
     for (ll a = 1; a * a <= n; a++)
     {
-        if (n % a != 0)
+        if (n % a)
         {
             continue;
         }
         ll b = n / a;
-        ans = min(ans, ck(a, b));
+        ans = min(ans, keta(a, b));
     }
 
-    cout << ans << endl;
-    return 0;
+    cout << ans << '\n';
+    return (0);
 }
