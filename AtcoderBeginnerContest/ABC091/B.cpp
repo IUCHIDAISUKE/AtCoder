@@ -6,8 +6,6 @@ typedef long long ll;
 #define rep(i, n) for (int i = 0; i < (n); i++)
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
-#define all2(a, b) (a).begin(), (a).begin() + (b)
-#define debug(vari) cerr << #vari << " = " << (vari) << endl;
 
 int main()
 {
@@ -22,23 +20,12 @@ int main()
     int ans = 0;
     rep(i, n)
     {
-        int cnt = 0;
-        rep(j, n)
-        {
-            if (s[i] == s[j])
-            {
-                cnt++;
-            }
-        }
-        rep(k, m)
-        {
-            if (s[i] == t[k])
-            {
-                cnt--;
-            }
-        }
-        ans = max(ans, cnt);
+        int tmp = 0;
+        rep(k, n) if (s[i] == s[k]) tmp++;
+        rep(j, m) if (s[i] == t[j]) tmp--;
+
+        ans = max(ans, tmp);
     }
     cout << ans << endl;
-    return 0;
+    return (0);
 }

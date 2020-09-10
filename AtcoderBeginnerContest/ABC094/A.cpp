@@ -9,19 +9,9 @@ typedef long long ll;
 
 int main()
 {
-    int n, x;
-    cin >> n >> x;
-    vector<int> m(n);
-    rep(i, n) cin >> m[i];
+    int a, b, x;
+    cin >> a >> b >> x;
 
-    int sum = 0, mi = 1001001001;
-    rep(i, n)
-    {
-        sum += m[i];
-        mi = min(mi, m[i]);
-    }
-
-    cout << (x - sum) / mi + n << endl;
-
+    cout << ((a <= x and x <= a + b) ? "YES" : "NO");
     return 0;
 }

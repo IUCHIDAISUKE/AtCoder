@@ -9,20 +9,15 @@ typedef long long ll;
 
 int main()
 {
-    int n;
-    cin >> n;
-    vector<int> a(n);
-    rep(i, n) cin >> a[i];
+    int a, b, k;
+    cin >> a >> b >> k;
 
-    sort(all(a));
-    reverse(all(a));
-
-    int ans = 0;
-    rep(i, n)
+    if ((b - a) / 2 < k)
+        rep2(i, a, b + 1) cout << i << '\n';
+    else
     {
-        ans += (i & 1) ? -a[i] : a[i]; // (i & 1) -> check odd !
+        rep2(i, a, a + k) cout << i << '\n';
+        rep2(i, b + 1 - k, b + 1) cout << i << '\n';
     }
-
-    cout << ans << endl;
     return 0;
 }

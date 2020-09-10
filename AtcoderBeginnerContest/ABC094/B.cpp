@@ -9,20 +9,16 @@ typedef long long ll;
 
 int main()
 {
-    int n;
-    cin >> n;
-    vector<int> a(n);
-    rep(i, n) cin >> a[i];
-
+    int n, m, x;
+    cin >> n >> m >> x;
+    vector<int> a(m);
+    rep(i, m) cin >> a[i];
+    a.push_back(x);
     sort(all(a));
-    reverse(all(a));
 
-    int ans = 0;
-    rep(i, n)
-    {
-        ans += (i & 1) ? -a[i] : a[i]; // (i & 1) -> check odd !
-    }
+    int res;
+    rep(i, m + 1) if (a[i] == x) res = i;
 
-    cout << ans << endl;
+    cout << min(res, m - res) << '\n';
     return 0;
 }

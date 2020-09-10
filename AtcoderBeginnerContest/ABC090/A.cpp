@@ -9,19 +9,13 @@ typedef long long ll;
 
 int main()
 {
-    int n, x;
-    cin >> n >> x;
-    vector<int> m(n);
-    rep(i, n) cin >> m[i];
+    vector<string> c(3);
+    rep(i, 3) cin >> c[i];
 
-    int sum = 0, mi = 1001001001;
-    rep(i, n)
+    rep(i, 3)
     {
-        sum += m[i];
-        mi = min(mi, m[i]);
+        cout << c[i][i];
     }
-
-    cout << (x - sum) / mi + n << endl;
-
-    return 0;
+    cout << endl;
+    return (0);
 }
