@@ -7,24 +7,12 @@ typedef long long ll;
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
 
-bool is_hershad(int x)
-{
-    int tmp = x;
-    int res = 0;
-    while (tmp)
-    {
-        res += tmp % 10;
-        tmp /= 10;
-    }
-    return (x % res == 0);
-}
-
 int main()
 {
-    int n;
-    cin >> n;
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
 
-    cout << (is_hershad(n) ? "Yes" : "No") << endl;
+    cout << ((a + b > c + d) ? "Left" : (a + b == c + d) ? "Balanced" : "Right") << '\n';
 
     return 0;
 }
