@@ -41,11 +41,11 @@
 - [x] ABC057 C
 - [x] ABC095 C
 - [ ] 三井住友信託銀行プログラミングコンテスト 2019 D
-- [ ] ABC128 C
-- [ ] ABC147 C
+- [x] ABC128 C
+- [x] ABC147 C
 - [x] ABC145 C
 - [x] ABC150 C
-- [ ] ABC054 C
+- [x] ABC054 C
 
 [たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
 
@@ -56,12 +56,18 @@
 - [x] M-SOLUTIONS プロコンオープン 2020 B
 - [x] ABC157 C
 - [x] ABC095 C
-- [ ] ABC112 C
+- [x] ABC112 C -> again
 - [x] ABC057 C
 - [x] square869120Contest #6 B
-- [ ] 三井住友信託銀行プログラミングコンテスト 2019 C
+- [x] 三井住友信託銀行プログラミングコンテスト 2019 C
 - [x] ABC089 C
-- [ ] ABC128 C
-- [ ] ABC147 C
-- [ ] ABC167 C
+- [x] ABC128 C
+- [x] ABC147 C
+- [x] ABC167 C
 - [ ] square869120Contest #4 B
+- [x] ABC145 C
+- [x] ABC150 C
+- [x] ABC054 C
+- [ ] ABC165 C
+- [ ] CPSCO2019 Day1 C
+- [ ] パナソニックプログラミングコンテスト 2020 D
