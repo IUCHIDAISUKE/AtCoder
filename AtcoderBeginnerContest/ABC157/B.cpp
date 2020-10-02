@@ -7,106 +7,89 @@ typedef long long ll;
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
 
-int digit(int n)
-{
-    if (n < 10)
-    {
-        return 1;
-    }
-    return digit(n / 10) + 1;
-}
-
-string int_to_string(int n)
-{
-    string res = "";
-    if (n == 0)
-    {
-        res = '0';
-    }
-    while (n)
-    {
-        char tmp = (n % 10) + '0';
-        res = tmp + res;
-        n /= 10;
-    }
-    return res;
-}
-
 int main()
 {
-    int n, m;
-    cin >> n >> m;
-    vector<int> s(m), c(m);
-    rep(i, m) cin >> s[i] >> c[i];
+    int a[3][3];
+    rep(i, 3) rep(j, 3) cin >> a[i][j];
 
-    rep(i, 1000)
+    int n;
+    cin >> n;
+    vector<int> b(n);
+    rep(i, n) cin >> b[i];
+
+    rep(i, n)
     {
-        if (n != digit(i))
+        rep(j, 3)
         {
-            continue;
-        }
-
-        bool flag = true;
-        rep(j, m)
-        {
-            string st_num = int_to_string(i);
-            if (st_num[s[j] - 1] != c[j] + '0')
+            rep(k, 3)
             {
-                flag = false;
+                if (b[i] == a[j][k])
+                {
+                    a[j][k] = 0;
+                }
             }
-        }
-        if (flag)
-        {
-            cout << i << '\n';
-            return 0;
         }
     }
 
-    cout << -1 << '\n';
-    return (0);
+    bool ok = false;
+    rep(i, 3)
+    {
+        bool ck = true;
+        rep(j, 3)
+        {
+            if (a[i][j] != 0)
+            {
+                ck = false;
+            }
+        }
+        if (ck)
+        {
+            ok = true;
+        }
+    }
+
+    rep(i, 3)
+    {
+        bool ck = true;
+        rep(j, 3)
+        {
+            if (a[j][i] != 0)
+            {
+                ck = false;
+            }
+        }
+        if (ck)
+        {
+            ok = true;
+        }
+    }
+
+    bool ck = true;
+    rep(i, 3)
+    {
+        if (a[i][i] != 0)
+        {
+            ck = false;
+        }
+    }
+    if (ck)
+    {
+        ok = true;
+    }
+
+    ck = true;
+    rep(i, 3)
+    {
+        if (a[i][2 - i] != 0)
+        {
+            ck = false;
+        }
+    }
+    if (ck)
+    {
+        ok = true;
+    }
+
+    cout << (ok ? "Yes" : "No") << '\n';
+    return 0;
 }
-
-// using P = pair<int, int>;
-
-// int main()
-// {
-//     int n, m;
-//     cin >> n >> m;
-//     vector<P> sc(m);
-//     rep(i, m) cin >> sc[i].first >> sc[i].second;
-
-//     rep(i, 1000)
-//     {
-//         int keta = 1;
-//         int ni = i / 10;
-//         vector<int> d(1, i % 10);
-//         while (ni)
-//         {
-//             keta++;
-//             d.push_back(ni % 10);
-//             ni /= 10;
-//         }
-//         reverse(all(d));
-//         if (keta != n)
-//             continue;
-
-//         bool flag = true;
-
-//         rep(j, m)
-//         {
-//             if (d[sc[j].first - 1] != sc[j].second)
-//             {
-//                 flag = false;
-//             }
-//         }
-
-//         if (flag)
-//         {
-//             cout << i << '\n';
-//             return 0;
-//         }
-//     }
-
-//     cout << -1 << '\n';
-//     return (0);
-// }
