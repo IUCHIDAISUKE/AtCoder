@@ -26,14 +26,13 @@ bool ck(ll num)
 
 void dfs(ll x)
 {
-    if (ck(x))
-        ans++;
-    if (x <= 1000000000)
-    {
-        dfs(10 * x + 3);
-        dfs(10 * x + 5);
-        dfs(10 * x + 7);
-    }
+    if ()
+        if (x <= (ll)1e9)
+        {
+            dfs(x * 10 + 3);
+            dfs(x * 10 + 5);
+            dfs(x * 10 + 7);
+        }
 }
 
 int main()
