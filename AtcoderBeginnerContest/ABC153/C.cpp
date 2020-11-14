@@ -10,13 +10,15 @@ const ll INF = 1LL << 60;
 
 int main()
 {
-    int n;
-    cin >> n;
-    vector<int> b(n);
-    rep(i, n - 1) cin >> b[i];
+    int n, k;
+    cin >> n >> k;
+    vector<int> h(n);
+    rep(i, n) cin >> h[i];
 
-    int ans = b[0] + b[n - 2];
-    rep(i, n - 2) ans += min(b[i], b[i + 1]);
+    sort(all(h));
+    ll ans = 0LL;
+    rep(i, n - k) ans += h[i];
+
     cout << ans << '\n';
     return 0;
 }

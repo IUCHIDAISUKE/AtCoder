@@ -10,13 +10,19 @@ const ll INF = 1LL << 60;
 
 int main()
 {
-    int n;
-    cin >> n;
-    vector<int> b(n);
-    rep(i, n - 1) cin >> b[i];
+    int a, b;
+    cin >> a >> b;
 
-    int ans = b[0] + b[n - 2];
-    rep(i, n - 2) ans += min(b[i], b[i + 1]);
+    int ans = -1;
+    rep2(i, 1, 3000)
+    {
+        if (i * 8 / 100 == a && i * 10 / 100 == b)
+        {
+            ans = i;
+            break;
+        }
+    }
+
     cout << ans << '\n';
     return 0;
 }

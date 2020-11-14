@@ -8,15 +8,20 @@ using P = pair<int, int>;
 
 const ll INF = 1LL << 60;
 
+ll f(ll h)
+{
+    if (h == 1)
+    {
+        return 1;
+    }
+    return f(h / 2) * 2 + 1;
+}
+
 int main()
 {
-    int n;
-    cin >> n;
-    vector<int> b(n);
-    rep(i, n - 1) cin >> b[i];
+    ll h;
+    cin >> h;
 
-    int ans = b[0] + b[n - 2];
-    rep(i, n - 2) ans += min(b[i], b[i + 1]);
-    cout << ans << '\n';
+    cout << f(h) << '\n';
     return 0;
 }
