@@ -7,23 +7,42 @@ typedef long long ll;
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
 
+// int main()
+// {
+//     int a, b, c, k;
+//     cin >> a >> b >> c >> k;
+
+//     while (b <= a && k)
+//     {
+//         k--;
+//         b <<= 1;
+//     }
+
+//     while (c <= b && k)
+//     {
+//         k--;
+//         c <<= 1;
+//     }
+
+//     cout << ((a < b && b < c) ? "Yes" : "No") << '\n';
+//     return (0);
+// }
+
 int main()
 {
-    int a, b, c, k;
-    cin >> a >> b >> c >> k;
+    int r, g, b, k;
+    cin >> r >> g >> b >> k;
 
-    while (b <= a && k)
+    while (r >= g)
     {
+        g *= 2;
         k--;
-        b <<= 1;
     }
-
-    while (c <= b && k)
+    while (g >= b)
     {
+        b *= 2;
         k--;
-        c <<= 1;
     }
-
-    cout << ((a < b && b < c) ? "Yes" : "No") << '\n';
-    return (0);
+    cout << ((k < 0) ? "No" : "Yes") << '\n';
+    return 0;
 }

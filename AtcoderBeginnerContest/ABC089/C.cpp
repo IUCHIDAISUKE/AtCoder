@@ -7,6 +7,26 @@ typedef long long ll;
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
 
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     vector<string> s(n);
+//     rep(i, n) cin >> s[i];
+
+//     map<char, ll> mp;
+//     rep(i, n) mp[s[i][0]]++;
+
+//     vector<int> v(5);
+//     rep(i, 5) v[i] = i;
+//     string march = "MARCH";
+
+//     ll ans = 0;
+//     rep(i, 5) rep2(j, i + 1, 5) rep2(k, j + 1, 5) ans += mp[march[i]] * mp[march[j]] * mp[march[k]];
+//     cout << ans << '\n';
+//     return 0;
+// }
+
 int main()
 {
     int n;
@@ -14,15 +34,12 @@ int main()
     vector<string> s(n);
     rep(i, n) cin >> s[i];
 
-    map<char, ll> mp;
-    rep(i, n) mp[s[i][0]]++;
-
-    vector<int> v(5);
-    rep(i, 5) v[i] = i;
-    string march = "MARCH";
-
     ll ans = 0;
-    rep(i, 5) rep2(j, i + 1, 5) rep2(k, j + 1, 5) ans += mp[march[i]] * mp[march[j]] * mp[march[k]];
+    map<char, int> mp;
+    rep(i, n) mp[s[i][0]]++;
+    string str = "MARCH";
+
+    rep(i, 5) rep(j, i) rep(k, j) ans += 1LL * mp[str[i]] * mp[str[j]] * mp[str[k]];
     cout << ans << '\n';
     return 0;
 }
