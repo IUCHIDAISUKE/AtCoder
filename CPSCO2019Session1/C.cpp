@@ -7,55 +7,55 @@ typedef long long ll;
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
 
-int n, k;
-vector<int> a;
+// int n, k;
+// vector<int> a;
 
-int ans = 1001001001;
+// int ans = 1001001001;
 
-int cnt(int n)
-{
-    int res = 0;
-    while (n)
-    {
-        int tmp = n % 10;
-        res += tmp / 5;
-        res += tmp % 5;
-        n /= 10;
-    }
-    return res;
-}
+// int cnt(int n)
+// {
+//     int res = 0;
+//     while (n)
+//     {
+//         int tmp = n % 10;
+//         res += tmp / 5;
+//         res += tmp % 5;
+//         n /= 10;
+//     }
+//     return res;
+// }
 
-void dfs(vector<int> depth)
-{
-    if (depth.size() == k + 1)
-    {
-        int tmp = 0;
-        rep2(i, 1, k + 1)
-        {
-            tmp += a[depth[i] - 1];
-        }
-        ans = min(ans, cnt(tmp));
-        return;
-    }
+// void dfs(vector<int> depth)
+// {
+//     if (depth.size() == k + 1)
+//     {
+//         int tmp = 0;
+//         rep2(i, 1, k + 1)
+//         {
+//             tmp += a[depth[i] - 1];
+//         }
+//         ans = min(ans, cnt(tmp));
+//         return;
+//     }
 
-    depth.push_back(depth.back() + 1);
-    while (depth.back() < n + 1)
-    {
-        dfs(depth);
-        depth.back()++;
-    }
-}
+//     depth.push_back(depth.back() + 1);
+//     while (depth.back() < n + 1)
+//     {
+//         dfs(depth);
+//         depth.back()++;
+//     }
+// }
 
-int main()
-{
-    cin >> n >> k;
-    a = vector<int>(n);
-    rep(i, n) cin >> a[i];
+// int main()
+// {
+//     cin >> n >> k;
+//     a = vector<int>(n);
+//     rep(i, n) cin >> a[i];
 
-    dfs(vector<int>(1, 1));
-    cout << ans << '\n';
-    return 0;
-}
+//     dfs(vector<int>(1, 1));
+//     cout << ans << '\n';
+//     return 0;
+// }
 
 // int main()
 // {
@@ -79,3 +79,42 @@ int main()
 //     cout << ans << '\n';
 //     return 0;
 // }
+
+int n, k;
+vector<int> a;
+
+int ans = 1001001001;
+void dfs(vector<int> d)
+{
+    if (d.size() == k + 1)
+    {
+        int tmp = 0;
+        rep2(i, 1, k + 1) tmp += a[d[i] - 1];
+        int cnt = 0;
+        while (tmp)
+        {
+            cnt += (tmp % 10) % 5;
+            cnt += (tmp % 10 >= 5);
+            tmp /= 10;
+        }
+        ans = min(ans, cnt);
+        return;
+    }
+    d.push_back(d.back() + 1);
+    while (d.back() < n + 1)
+    {
+        dfs(d);
+        d.back()++;
+    }
+}
+
+int main()
+{
+    cin >> n >> k;
+    a = vector<int>(n);
+    rep(i, n) cin >> a[i];
+
+    dfs(vector<int>(1, 0));
+    cout << ans << '\n';
+    return 0;
+}
