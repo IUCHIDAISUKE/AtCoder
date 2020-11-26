@@ -47,6 +47,21 @@
 - [x] ABC150 C
 - [x] ABC054 C
 
+[レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【中級編：目指せ水色コーダー！】](https://qiita.com/e869120/items/eb50fdaece12be418faa)
+
+- [x] ITP1-7 B
+- [x] ABC106 B
+- [x] ABC122 B
+- [x] パ研杯 2019 B
+
+- [x] ABC095 C
+- [x] 三井住友信託銀行プログラミングコンテスト 2019 D
+- [ ] JOI2007 本選 3
+- [x] square869120Contest #6 B
+- [ ] JOI2008 予選 4
+
+- [x] ALDS5 A // bit 全探索、再帰の 2 パターンで解くこと(dp で計算量を改善するには?)
+
 [たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
 
 - [x] ABC136 B
@@ -56,7 +71,7 @@
 - [x] M-SOLUTIONS プロコンオープン 2020 B
 - [x] ABC157 C
 - [x] ABC095 C
-- [x] ABC112 C <-> again
+- [x] ABC112 C
 - [x] ABC057 C
 - [x] square869120Contest #6 B
 - [x] 三井住友信託銀行プログラミングコンテスト 2019 D <- N 桁に拡張して解く
@@ -73,3 +88,11 @@
 - [x] CPSCO2019 Day1 C
 - [x] パナソニックプログラミングコンテスト 2020 D
 - [x] ABC114 C -> again..
+
+[二分探索]
+
+- [x] ABC077 C
+- [ ] ABC013 C
+- [ ] ABC034 D
+- [ ] ABC023 D
+- [ ] JOI2008 春合宿 cheating
