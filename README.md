@@ -3,25 +3,15 @@
 [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
 - [x] Probrem1
-  - [x] sim Problem1
 - [x] Probrem2
-  - [x] sim Problem2
 - [x] Probrem3
-  - [x] sim Problem3
 - [x] Probrem4
-  - [x] sim Problem4
 - [x] Probrem5
-  - [x] sim Problem5
 - [x] Probrem6
-  - [x] sim Problem6
 - [x] Probrem7
-  - [x] sim Problem7
 - [x] Probrem8
-  - [x] sim Problem8 -> ABC112C again
 - [x] Probrem9
-  - [ ] sim Problem9
 - [x] Probrem10
-  - [x] sim Problem10
 - [x] Grid problems
 - [x] Sectional overlap
 - [x] 1000000007 probrem
@@ -29,6 +19,16 @@
 - [x] Loop simulation
 - [x] Cumulate sum
 - [x] Bit full search
+  - [x] sim Problem1
+  - [x] sim Problem2
+  - [x] sim Problem3
+  - [x] sim Problem4
+  - [x] sim Problem5
+  - [x] sim Problem6
+  - [x] sim Problem7
+  - [x] sim Problem8 -> ABC112C again
+  - [ ] sim Problem9
+  - [x] sim Problem10
 
 ---
 
@@ -94,13 +94,24 @@
 - [x] 全国統一プログラミング王決定戦本戦 A
 - [x] JOI2009/2010 本選 A
 - [x] JOI2010/2011 本選 A
-- [ ] ABC106 D
-- [ ] GigaCode2019 D
+- [x] ABC106 D
+- [x] GigaCode2019 D
   - [x] JOI 2006/2007 本選 A
   - [x] ABC084 D
   - [x] ABC122 C
   - [x] AGC023 A
   - [x] ABC005 D
+
+[しゃくとり法]
+
+- [x] DSL 3-C
+- [x] ABC032 C
+- [x] ABC038 C
+- [x] ARC022 B
+- [ ] ABC098 D
+- [ ] ABC017 D
+- [ ] JOI2013/2014 本選 C
+- [ ] JOI2017/2018 予選 E
 
 ---
 
