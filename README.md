@@ -1,6 +1,6 @@
-# AtCoder
+# AtCoder solution board
 
-[AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
+### [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
 - [x] Probrem1
 - [x] Probrem2
@@ -32,7 +32,32 @@
 
 ---
 
-[レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
+### [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](https://qiita.com/drken/items/dc53c683d6de8aeacf5a)
+
+- [ ] EDPC A
+- [ ] EDPC B
+- [ ] EDPC C
+- [ ] EDPC D
+- [ ] EDPC E
+  - [ ] ABC040 C
+  - [ ] ABC129 C
+  - [ ] AOJ0168 C
+  - [ ] ABC099 C
+  - [ ] TDPC A
+  - [ ] TDPC D
+  - [ ] ABC015 D
+  - [ ] JOI 2010 予選 D
+  - [ ] JOI 2011 予選 D
+  - [ ] JOI 2012 予選 D
+  - [ ] JOI 2010 本選 B
+  - [ ] AOJ2566
+  - [ ] ARC057 B
+  - [ ] AOJ2263
+  - [ ] ABC032 D
+
+---
+
+### [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
 
 - [x] ABC144 B
 - [x] ABC150 B
@@ -51,7 +76,7 @@
 
 ---
 
-[レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【中級編：目指せ水色コーダー！】](https://qiita.com/e869120/items/eb50fdaece12be418faa)
+### [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【中級編：目指せ水色コーダー！】](https://qiita.com/e869120/items/eb50fdaece12be418faa)
 
 [全探索]
 
@@ -89,6 +114,48 @@
 - [ ] ABC023 D
 - [ ] JOI2008 春合宿 cheating
 
+[深さ優先探索]
+
+- [ ] ALDS 11-B
+- [ ] AOJ1160
+- [ ] ABC138 D
+- [ ] JOI2009 予選 4
+
+[幅優先探索]
+
+- [ ] ALDS 11-C
+- [ ] ABC007 C
+- [ ] JOI2011 予選 5
+- [ ] JOI2012 予選 5
+- [ ] AOJ 1166
+- [ ] ABC088 D
+
+[動的計画法]
+
+- [ ] ALDS 10-A
+- [ ] ALDS 10-C
+- [ ] DPL 1-A
+- [ ] DPL 1-B
+- [ ] DPL 1-C
+- [ ] JOI 2011 予選 4
+- [ ] JOI 2012 予選 4
+- [ ] JOI 2013 予選 4
+- [ ] JOI 2015 予選 4
+- [ ] パ研杯 2019 D
+- [ ] AOJ 1167
+- [ ] AOJ 2199
+- [ ] ALDS 10-B
+- [ ] JOI 2015 本選 2
+- [ ] AOJ 1611
+- [ ] DPL 2-A
+- [ ] Square869120Contest #1 G
+- [ ] JOI 2014 予選 4
+- [ ] JOI 2017 予選 4
+- [ ] GRL 1-A
+- [ ] JOI 2008 予選 6
+- [ ] JOI 2016 予選 5
+- [ ] JOI 2014 予選 5
+
 [累積和]
 
 - [x] 全国統一プログラミング王決定戦本戦 A
@@ -115,7 +182,67 @@
 
 ---
 
-[たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
+### [Educational DP Contest / DP まとめコンテスト](https://atcoder.jp/contests/dp)
+
+[EDPC]
+
+- [ ] EDPC A
+- [ ] EDPC B
+- [ ] EDPC C
+- [ ] EDPC D
+- [ ] EDPC E
+- [ ] EDPC F
+- [ ] EDPC G
+- [ ] EDPC H
+- [ ] EDPC I
+- [ ] EDPC J
+- [ ] EDPC K
+- [ ] EDPC L
+- [ ] EDPC M
+- [ ] EDPC N
+- [ ] EDPC O
+- [ ] EDPC P
+- [ ] EDPC Q
+- [ ] EDPC R
+- [ ] EDPC S
+- [ ] EDPC T
+- [ ] EDPC U
+- [ ] EDPC V
+- [ ] EDPC W
+- [ ] EDPC X
+- [ ] EDPC Y
+- [ ] EDPC Z
+
+---
+
+### [Typical DP Contest](https://atcoder.jp/contests/tdpc)
+
+[TDPC]
+
+- [ ] TDPC A
+- [ ] TDPC B
+- [ ] TDPC C
+- [ ] TDPC D
+- [ ] TDPC E
+- [ ] TDPC F
+- [ ] TDPC G
+- [ ] TDPC H
+- [ ] TDPC I
+- [ ] TDPC J
+- [ ] TDPC K
+- [ ] TDPC L
+- [ ] TDPC M
+- [ ] TDPC N
+- [ ] TDPC O
+- [ ] TDPC P
+- [ ] TDPC Q
+- [ ] TDPC R
+- [ ] TDPC S
+- [ ] TDPC T
+
+---
+
+### [たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
 
 [全探索]
 
