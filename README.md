@@ -40,7 +40,7 @@
 - [ ] EDPC D
 - [ ] EDPC E
   - [ ] ABC040 C
-  - [ ] ABC129 C
+  - [ ] ABC129 C // dp[a[i]]==0 として解けるか?
   - [ ] AOJ0168 C
   - [ ] ABC099 C
   - [ ] TDPC A
