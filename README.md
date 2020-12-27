@@ -26,7 +26,7 @@
   - [x] sim Problem5
   - [x] sim Problem6
   - [x] sim Problem7
-  - [x] sim Problem8 -> ABC112C again
+  - [x] sim Problem8
   - [ ] sim Problem9
   - [x] sim Problem10
 
