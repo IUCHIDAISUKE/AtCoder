@@ -32,31 +32,6 @@
 
 ---
 
-### [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](https://qiita.com/drken/items/dc53c683d6de8aeacf5a)
-
-- [ ] EDPC A
-- [ ] EDPC B
-- [ ] EDPC C
-- [ ] EDPC D
-- [ ] EDPC E
-  - [ ] ABC040 C
-  - [ ] ABC129 C // dp[a[i]]==0 として解けるか?
-  - [ ] AOJ0168 C
-  - [ ] ABC099 C
-  - [ ] TDPC A
-  - [ ] TDPC D
-  - [ ] ABC015 D
-  - [ ] JOI 2010 予選 D
-  - [ ] JOI 2011 予選 D
-  - [ ] JOI 2012 予選 D
-  - [ ] JOI 2010 本選 B
-  - [ ] AOJ2566
-  - [ ] ARC057 B
-  - [ ] AOJ2263
-  - [ ] ABC032 D
-
----
-
 ### [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
 
 - [x] ABC144 B
@@ -179,6 +154,31 @@
 - [ ] ABC017 D
 - [ ] JOI2013/2014 本選 C
 - [ ] JOI2017/2018 予選 E
+
+---
+
+### [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](https://qiita.com/drken/items/dc53c683d6de8aeacf5a)
+
+- [ ] EDPC A
+- [ ] EDPC B
+- [ ] EDPC C
+- [ ] EDPC D
+- [ ] EDPC E
+  - [ ] ABC040 C
+  - [ ] ABC129 C // dp[a[i]]==0 として解けるか?
+  - [ ] AOJ0168 C
+  - [ ] ABC099 C
+  - [ ] TDPC A
+  - [ ] TDPC D
+  - [ ] ABC015 D
+  - [ ] JOI 2010 予選 D
+  - [ ] JOI 2011 予選 D
+  - [ ] JOI 2012 予選 D
+  - [ ] JOI 2010 本選 B
+  - [ ] AOJ2566
+  - [ ] ARC057 B
+  - [ ] AOJ2263
+  - [ ] ABC032 D
 
 ---
 
