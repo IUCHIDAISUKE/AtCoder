@@ -11,15 +11,18 @@ const int MOD = (int)1e9 + 7;
 const double PI = acos(-1);
 int main()
 {
-    int n, k, m;
-    cin >> n >> k >> m;
-    vector<int> a(n - 1);
-    rep(i, n - 1) cin >> a[i];
+    int n, k;
+    cin >> n >> k;
 
-    int s = 0;
-    rep(i, n - 1) s += a[i];
-    int g = n * m - s;
-
-    cout << ((g <= k) ? max(0, g) : -1) << '\n';
+    int res;
+    if (k <= n)
+        res = k * k * k;
+    else if (k <= 2 * n)
+        res = k * k * k - 3 * (k - n) * (k - n) * (k - n);
+    else if (k <= 3 * n)
+        res = 6 * n * n * n - (3 * n - k) * (3 * n - k) * (3 * n - k);
+    else
+        res = 6 * n * n * n;
+    cout << res << '\n';
     return 0;
 }

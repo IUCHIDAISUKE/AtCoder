@@ -9,17 +9,23 @@ using P = pair<int, int>;
 const ll INF = 1LL << 60;
 const int MOD = (int)1e9 + 7;
 const double PI = acos(-1);
+
 int main()
 {
-    int n, k, m;
-    cin >> n >> k >> m;
-    vector<int> a(n - 1);
-    rep(i, n - 1) cin >> a[i];
+    int n;
+    cin >> n;
+    vector<int> x(n), y(n);
+    rep(i, n) cin >> x[i] >> y[i];
 
-    int s = 0;
-    rep(i, n - 1) s += a[i];
-    int g = n * m - s;
-
-    cout << ((g <= k) ? max(0, g) : -1) << '\n';
+    int ans = 0;
+    rep(i, n)
+    {
+        rep(j, i)
+        {
+            double a = (y[j] - y[i]) / (1.0 * x[j] - x[i]);
+            ans += (-1.0 <= a && a <= 1.0);
+        }
+    }
+    cout << ans << '\n';
     return 0;
 }

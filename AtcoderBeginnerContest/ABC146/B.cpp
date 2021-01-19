@@ -1,22 +1,20 @@
 #include <bits/stdc++.h>
-
-using namespace std;
-typedef long long ll;
-
 #define rep(i, n) for (int i = 0; i < (n); i++)
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
+using namespace std;
+using ll = long long;
+using P = pair<int, int>;
 
+const ll INF = 1LL << 60;
+const int MOD = (int)1e9 + 7;
+const double PI = acos(-1);
 int main()
 {
     int n;
     string s;
     cin >> n >> s;
-
-    rep(i, s.size())
-    {
-        s[i] = (s[i] - 'A' + n) % 26 + 'A';
-    }
-    cout << s << '\n';
+    rep(i, s.size()) cout << (char)((s[i] - 'A' + n) % 26 + 'A');
+    cout << '\n';
     return 0;
 }

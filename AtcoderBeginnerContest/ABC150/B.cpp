@@ -11,15 +11,13 @@ const int MOD = (int)1e9 + 7;
 const double PI = acos(-1);
 int main()
 {
-    int n, k, m;
-    cin >> n >> k >> m;
-    vector<int> a(n - 1);
-    rep(i, n - 1) cin >> a[i];
+    int n;
+    string s;
+    cin >> n >> s;
 
-    int s = 0;
-    rep(i, n - 1) s += a[i];
-    int g = n * m - s;
-
-    cout << ((g <= k) ? max(0, g) : -1) << '\n';
+    int ans = 0;
+    rep(i, n - 2)
+        ans += (s.substr(i, 3) == "ABC");
+    cout << ans << '\n';
     return 0;
 }

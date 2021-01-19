@@ -34,8 +34,15 @@
 
 ### [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
 
-- [x] ABC144 B
+- [x] ABC155 B
+- [x] ABC154 B
+- [x] ABC152 B
+- [x] ABC148 B
+- [x] ABC146 B
+- [x] ABC151 B
 - [x] ABC150 B
+- [x] ABC144 B
+- [x] ABC143 B
 - [x] ABC122 B
 - [x] ABC136 B
 - [x] ABC106 B

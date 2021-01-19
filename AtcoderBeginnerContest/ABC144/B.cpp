@@ -1,38 +1,28 @@
 #include <bits/stdc++.h>
-
-using namespace std;
-typedef long long ll;
-
 #define rep(i, n) for (int i = 0; i < (n); i++)
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
-#define all2(a, b) (a).begin(), (a).begin() + (b)
-#define debug(vari) cerr << #vari << " = " << (vari) << endl;
-const int MOD = 1e9 + 7;
+using namespace std;
+using ll = long long;
+using P = pair<int, int>;
 
+const ll INF = 1LL << 60;
+const int MOD = (int)1e9 + 7;
+const double PI = acos(-1);
 int main()
 {
 	int n;
-	string s, t = "ABC";
-	cin >> n >> s;
+	cin >> n;
 
-	int res = 0;
-	rep(i, n)
+	bool ok = false;
+	rep2(i, 1, 10)
 	{
-		if (s[i] == 'A')
-		{
-			int flag = 0;
-			rep(j, 3)
-			{
-				if (s[i + j] != t[j])
-				{
-					flag++;
-				}
-			}
-			if (!flag)
-				res++;
-		}
+		if (n % i)
+			continue;
+		int a = n / i;
+		if (1 <= a && a <= 9)
+			ok = true;
 	}
-	cout << res << endl;
-	return (0);
+	cout << (ok ? "Yes" : "No") << '\n';
+	return 0;
 }

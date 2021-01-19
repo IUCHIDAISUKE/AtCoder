@@ -9,17 +9,17 @@ using P = pair<int, int>;
 const ll INF = 1LL << 60;
 const int MOD = (int)1e9 + 7;
 const double PI = acos(-1);
+
 int main()
 {
-    int n, k, m;
-    cin >> n >> k >> m;
-    vector<int> a(n - 1);
-    rep(i, n - 1) cin >> a[i];
+    int n, h, w;
+    cin >> n >> h >> w;
+    vector<int> a(n), b(n);
+    rep(i, n) cin >> a[i] >> b[i];
 
-    int s = 0;
-    rep(i, n - 1) s += a[i];
-    int g = n * m - s;
-
-    cout << ((g <= k) ? max(0, g) : -1) << '\n';
+    int ans = 0;
+    rep(i, n)
+        ans += (a[i] >= h && b[i] >= w);
+    cout << ans << '\n';
     return 0;
 }
