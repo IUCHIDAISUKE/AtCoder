@@ -1,6 +1,6 @@
 # AtCoder solution board
 
-### [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
+## [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
 - [x] Probrem1
 - [x] Probrem2
@@ -32,7 +32,7 @@
 
 ---
 
-### [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
+## [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
 
 - [x] ABC155 B
 - [x] ABC154 B
@@ -58,7 +58,7 @@
 
 ---
 
-### [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【中級編：目指せ水色コーダー！】](https://qiita.com/e869120/items/eb50fdaece12be418faa)
+## [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【中級編：目指せ水色コーダー！】](https://qiita.com/e869120/items/eb50fdaece12be418faa)
 
 [全探索]
 
@@ -164,7 +164,7 @@
 
 ---
 
-### [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](https://qiita.com/drken/items/dc53c683d6de8aeacf5a)
+## [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](https://qiita.com/drken/items/dc53c683d6de8aeacf5a)
 
 - [ ] EDPC A
 - [ ] EDPC B
@@ -189,7 +189,7 @@
 
 ---
 
-### [Educational DP Contest / DP まとめコンテスト](https://atcoder.jp/contests/dp)
+## [Educational DP Contest / DP まとめコンテスト](https://atcoder.jp/contests/dp)
 
 [EDPC]
 
@@ -222,7 +222,7 @@
 
 ---
 
-### [Typical DP Contest](https://atcoder.jp/contests/tdpc)
+## [Typical DP Contest](https://atcoder.jp/contests/tdpc)
 
 [TDPC]
 
@@ -249,7 +249,7 @@
 
 ---
 
-### [たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
+## [たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
 
 [全探索]
 
