@@ -2,16 +2,57 @@
 
 ## [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
-- [x] Probrem1
-- [x] Probrem2
-- [x] Probrem3
-- [x] Probrem4
-- [x] Probrem5
-- [x] Probrem6
-- [x] Probrem7
-- [x] Probrem8
-- [x] Probrem9
-- [x] Probrem10
+- [x] 01. [ABC086 A](https://atcoder.jp/contests/abc086/tasks/abc086_a)
+  - [x] [ABC064 A](https://atcoder.jp/contests/abc064/tasks/abc064_a)
+  - [x] [ABC088 A](https://atcoder.jp/contests/abc088/tasks/abc088_a)
+  - [x] [ABC157 A](https://atcoder.jp/contests/abc157/tasks/abc157_a)
+- [x] 02. [ABC081 A](https://atcoder.jp/contests/abc081/tasks/abc081_a)
+  - [x] [ABC095 A](https://atcoder.jp/contests/abc095/tasks/abc095_a)
+  - [x] [ABC085 A](https://atcoder.jp/contests/abc085/tasks/abc085_a)
+  - [x] [ABC069 B](https://atcoder.jp/contests/abc069/tasks/abc069_b)
+  - [x] [ABC082 B](https://atcoder.jp/contests/abc082/tasks/abc082_b)
+- [x] 03. [ABC081 B](https://atcoder.jp/contests/abc081/tasks/abc081_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC102 B](https://atcoder.jp/contests/abc102/tasks/abc102_b)
+  - [x] [ABC113 B](https://atcoder.jp/contests/abc113/tasks/abc113_b)
+  - [x] [ABC072 B](https://atcoder.jp/contests/abc072/tasks/abc072_b)
+  - [x] [ABC053 B](https://atcoder.jp/contests/abc053/tasks/abc053_b)
+  - [x] [ABC095 B](https://atcoder.jp/contests/abc095/tasks/abc095_b)
+- [x] 04. [ABC087 B](https://atcoder.jp/contests/abc087/tasks/abc087_b)
+  - [x] [ABC105 B](https://atcoder.jp/contests/abc105/tasks/abc105_b)
+  - [x] [ABC144 B](https://atcoder.jp/contests/abc144/tasks/abc144_b)
+  - [x] [ABC133 B](https://atcoder.jp/contests/abc133/tasks/abc133_b)
+  - [x] [ABC175 B](https://atcoder.jp/contests/abc175/tasks/abc175_b)
+- [x] 05. [ABC083 B](https://atcoder.jp/contests/abc083/tasks/abc083_b)
+  - [x] [ABC090 B](https://atcoder.jp/contests/abc090/tasks/abc090_b)
+  - [x] [AGC025 A](https://atcoder.jp/contests/agc025/tasks/agc025_a)
+  - [x] [ABC156 B](https://atcoder.jp/contests/abc156/tasks/abc156_b) 
+- [x] 06. [ABC088 B](https://atcoder.jp/contests/abc088/tasks/abc088_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b) //TODO ここから
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+- [x] 07. [ABC085 B](https://atcoder.jp/contests/abc085/tasks/abc085_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+- [x] 08. [ABC085 C](https://atcoder.jp/contests/abc085/tasks/abc085_c)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+- [x] 09. [ABC049 C](https://atcoder.jp/contests/abc049/tasks/arc065_a)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+- [x] 10. [ABC086 C](https://atcoder.jp/contests/abc086/tasks/arc089_a)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
 - [x] Grid problems
 - [x] Sectional overlap
 - [x] 1000000007 probrem
@@ -62,55 +103,54 @@
 
 [全探索]
 
-- [x] ITP1-7 B
-- [x] ABC106 B
-- [x] ABC122 B
-- [x] パ研杯 2019 B
-- [x] ABC095 C
-- [x] 三井住友信託銀行プログラミングコンテスト 2019 D
-- [ ] JOI2007 本選 3
-- [x] square869120Contest #6 B
-- [ ] JOI2008 予選 4
+- [x] 001. [ITP1-7 B](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_7_B&lang=ja)
+- [x] 002. [ABC106 B](https://atcoder.jp/contests/abc106/tasks/abc106_b)
+- [x] 003. [ABC122 B](https://atcoder.jp/contests/abc122/tasks/abc122_b)
+- [x] 004. [パ研杯 2019 B](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
+- [x] 005. [ABC095 C](https://atcoder.jp/contests/abc095/tasks/arc096_a)
+- [x] 006. [三井住友信託銀行プログラミングコンテスト 2019 D](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
+- [ ] 007. JOI2007 本選 3
+- [x] 008. [square869120Contest #6 B](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)
+- [ ] 009. JOI2008 予選 4
 
 [bit 全探索]
 
-- [x] ALDS5 A // (dp で計算量を改善するには?)
-- [x] ABC128 C
-- [x] ABC002 D // again
-- [ ] JOI2008 予選 5
-- [ ] square869120Contest #4 B
+- [x] 010. [ALDS5 A](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_A&lang=ja) // (dp で計算量を改善するには?)
+- [x] 011. [ABC128 C](https://atcoder.jp/contests/abc128/tasks/abc128_c)
+- [x] 012. [ABC002 D](https://atcoder.jp/contests/abc002/tasks/abc002_4) // again
+- [ ] 013. JOI2008 予選 5
+- [ ] 014. square869120Contest #4 B
 
 [順列全探索]
 
-- [ ] ABC145 C
-- [ ] ABC150 C
-- [ ] ALDS 13-A
+- [ ] 015. ABC145 C
+- [ ] 016. ABC150 C
+- [ ] 017. ALDS 13-A
 
 [二分探索]
 
-- [ ] ALDS 4-B
-- [ ] JOI2009 本選 2
-- [x] ABC077 C
-- [ ] ABC013 C
-- [ ] ABC034 D
-- [ ] ABC023 D
-- [ ] JOI2008 春合宿 cheating
+- [ ] 018. ALDS 4-B
+- [ ] 019. JOI2009 本選 2
+- [x] 020. ABC077 C
+- [ ] 021. ABC023 D
+- [ ] 022. ABC054 B
+- [ ] 023. JOI2008 春合宿 cheating
 
 [深さ優先探索]
 
-- [ ] ALDS 11-B
-- [ ] AOJ1160
-- [ ] ABC138 D
-- [ ] JOI2009 予選 4
+- [ ] 024. ALDS 11-B
+- [ ] 025. AOJ1160
+- [ ] 026. ABC138 D
+- [ ] 027. JOI2009 予選 4
 
 [幅優先探索]
 
-- [ ] ALDS 11-C
-- [ ] ABC007 C
-- [ ] JOI2011 予選 5
-- [ ] JOI2012 予選 5
-- [ ] AOJ 1166
-- [ ] ABC088 D
+- [ ] 028. ALDS 11-C
+- [ ] 029. ABC007 C
+- [ ] 030. JOI2011 予選 5
+- [ ] 031. JOI2012 予選 5
+- [ ] 032. AOJ 1166
+- [ ] 033. ABC088 D
 
 [動的計画法]
 
