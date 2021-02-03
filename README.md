@@ -117,15 +117,15 @@
 
 - [x] 010. [ALDS5 A](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_A&lang=ja) // (dp で計算量を改善するには?)
 - [x] 011. [ABC128 C](https://atcoder.jp/contests/abc128/tasks/abc128_c)
-- [x] 012. [ABC002 D](https://atcoder.jp/contests/abc002/tasks/abc002_4) // again
+- [ ] 012. [ABC002 D](https://atcoder.jp/contests/abc002/tasks/abc002_4)
 - [ ] 013. JOI2008 予選 5
 - [ ] 014. square869120Contest #4 B
 
 [順列全探索]
 
-- [ ] 015. ABC145 C
-- [ ] 016. ABC150 C
-- [ ] 017. ALDS 13-A
+- [x] 015. [ABC145 C](https://atcoder.jp/contests/abc145/tasks/abc145_c)
+- [x] 016. [ABC150 C](https://atcoder.jp/contests/abc150/tasks/abc150_c)
+- [ ] 017. [ALDS 13-A]
 
 [二分探索]
 
@@ -142,6 +142,7 @@
 - [ ] 025. AOJ1160
 - [ ] 026. ABC138 D
 - [ ] 027. JOI2009 予選 4
+  - [ ] [ABC029 C](https://atcoder.jp/contests/abc029/tasks/abc029_c)
 
 [幅優先探索]
 
@@ -154,29 +155,60 @@
 
 [動的計画法]
 
-- [ ] ALDS 10-A
-- [ ] ALDS 10-C
-- [ ] DPL 1-A
-- [ ] DPL 1-B
-- [ ] DPL 1-C
-- [ ] JOI 2011 予選 4
-- [ ] JOI 2012 予選 4
-- [ ] JOI 2013 予選 4
-- [ ] JOI 2015 予選 4
-- [ ] パ研杯 2019 D
-- [ ] AOJ 1167
-- [ ] AOJ 2199
-- [ ] ALDS 10-B
-- [ ] JOI 2015 本選 2
-- [ ] AOJ 1611
-- [ ] DPL 2-A
-- [ ] Square869120Contest #1 G
-- [ ] JOI 2014 予選 4
-- [ ] JOI 2017 予選 4
-- [ ] GRL 1-A
-- [ ] JOI 2008 予選 6
-- [ ] JOI 2016 予選 5
-- [ ] JOI 2014 予選 5
+- [ ] 034. ALDS 10-A
+- [ ] 035. DPL 1-B
+- [ ] 036. DPL 1-C
+- [ ] 037. DPL 1-A
+- [ ] 038. ALDS 10-C
+- [ ] 039. JOI 2011 予選 4
+- [ ] 040. JOI 2012 予選 4
+- [ ] 041. JOI 2013 予選 4
+- [ ] 042. JOI 2015 予選 4
+- [ ] 043. パ研杯 2019 D
+- [ ] 044. AOJ 1167
+- [ ] 045. AOJ 2199
+- [ ] 046. ALDS 10-B
+- [ ] 047. JOI 2015 本選 2
+- [ ] 048. AOJ 1611
+- [ ] 049. DPL 2-A
+- [ ] 050. Square869120Contest #1 G
+- [ ] 051. JOI 2014 予選 4
+- [ ] 052. JOI 2017 予選 4
+- [ ] 053. DPL 1-D
+- [ ] 054. ABC006 D
+- [ ] 055. ABC134 E
+
+[最短経路問題：ダイクストラ法]
+
+- [ ] 056. GRL 1-A
+- [ ] 057. JOI 2008 予選 6
+- [ ] 058. JOI 2016 予選 5
+- [ ] 059. JOI 2014 予選 5
+
+[最短経路問題：ワーシャルフロイド法]
+
+- [ ] 060. GRL 1-C
+- [ ] 061. ABC012 D
+- [ ] 062. ABC079 D
+- [ ] 063. ABC074 D
+
+[最小全域木問題]
+
+- [ ] 064. GRL 2-A
+- [ ] 065. JOI 2010 春合宿 finals
+- [ ] 066. AOJ1127
+- [ ] 067. ABC065 D
+
+[高速な素数判定]
+
+- [ ] 068. NTL 1-B
+- [ ] 069. ABC084 D
+
+[高速なべき乗計算]
+
+- [ ] 070. NTL 1-B
+- [ ] 071. Square869120Contest #1 E
+
 
 [累積和]
 
