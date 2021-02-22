@@ -26,76 +26,71 @@
 - [x] 05. [ABC083 B](https://atcoder.jp/contests/abc083/tasks/abc083_b)
   - [x] [ABC090 B](https://atcoder.jp/contests/abc090/tasks/abc090_b)
   - [x] [AGC025 A](https://atcoder.jp/contests/agc025/tasks/agc025_a)
-  - [x] [ABC156 B](https://atcoder.jp/contests/abc156/tasks/abc156_b) 
+  - [x] [ABC156 B](https://atcoder.jp/contests/abc156/tasks/abc156_b)
 - [x] 06. [ABC088 B](https://atcoder.jp/contests/abc088/tasks/abc088_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b) //TODO ここから
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC067 B](https://atcoder.jp/contests/abc067/tasks/abc067_b)
+  - [x] [ABC042 B](https://atcoder.jp/contests/abc042/tasks/abc042_b)
+  - [x] [AGC027 A](https://atcoder.jp/contests/agc027/tasks/agc027_a)
+  - [x] [AGC012 A](https://atcoder.jp/contests/agc012/tasks/agc012_a)
 - [x] 07. [ABC085 B](https://atcoder.jp/contests/abc085/tasks/abc085_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC071 B](https://atcoder.jp/contests/abc071/tasks/abc071_b)
+  - [x] [ABC061 B](https://atcoder.jp/contests/abc061/tasks/abc061_b)
+  - [x] [ABC047 B](https://atcoder.jp/contests/abc047/tasks/abc047_b)
+  - [x] [ABC091 B](https://atcoder.jp/contests/abc091/tasks/abc091_b)
+  - [x] [ABC081 C](https://atcoder.jp/contests/abc081/tasks/arc086_a)
 - [x] 08. [ABC085 C](https://atcoder.jp/contests/abc085/tasks/abc085_c)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-- [x] 09. [ABC049 C](https://atcoder.jp/contests/abc049/tasks/arc065_a)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
+  - [x] [ABC088 C](https://atcoder.jp/contests/abc088/tasks/abc088_c)
+  - [x] [ARC096 C](https://atcoder.jp/contests/arc096/tasks/arc096_a)
+  - [x] [ABC057 C](https://atcoder.jp/contests/abc057/tasks/abc057_c)
+  - [x] [ABC112 C](https://atcoder.jp/contests/abc112/tasks/abc112_c)
+- [ ] 09. [ABC049 C](https://atcoder.jp/contests/abc049/tasks/arc065_a)
+  - [ ] [AGC013 A](https://atcoder.jp/contests/agc013/tasks/agc013_a)
+  - [ ] [AGC011 A](https://atcoder.jp/contests/agc013/tasks/agc013_a)
+  - [ ] [ABC059 C](https://atcoder.jp/contests/abc059/tasks/arc072_a)
+  - [ ] [ABC072 c](https://atcoder.jp/contests/abc072/tasks/arc082_a)
 - [x] 10. [ABC086 C](https://atcoder.jp/contests/abc086/tasks/arc089_a)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-  - [x] [ABC068 B](https://atcoder.jp/contests/abc068/tasks/abc068_b)
-- [x] Grid problems
-- [x] Sectional overlap
-- [x] 1000000007 probrem
-- [x] Mathmatic probrem
-- [x] Loop simulation
-- [x] Cumulate sum
-- [x] Bit full search
-  - [x] sim Problem1
-  - [x] sim Problem2
-  - [x] sim Problem3
-  - [x] sim Problem4
-  - [x] sim Problem5
-  - [x] sim Problem6
-  - [x] sim Problem7
-  - [x] sim Problem8
-  - [ ] sim Problem9
-  - [x] sim Problem10
+  - [x] [ABC093 C](https://atcoder.jp/contests/abc093/tasks/arc094_a)
+  - [x] [AGC010 A](https://atcoder.jp/contests/agc010/tasks/agc010_a)
+  - [x] [AGC020 A](https://atcoder.jp/contests/agc020/tasks/agc020_a)
+  - [x] [ABC073 C](https://atcoder.jp/contests/abc073/tasks/abc073_c)
+- [x] Others
+  - [x] [ABC075 B](https://atcoder.jp/contests/abc075/tasks/abc075_b)
+  - [x] [ABC096 C](https://atcoder.jp/contests/abc096/tasks/abc096_c)
+  - [x] [ABC070 B](https://atcoder.jp/contests/abc070/tasks/abc070_b)
+  - [x] [ABC055 B](https://atcoder.jp/contests/abc055/tasks/abc055_b)
+  - [x] [ABC046 B](https://atcoder.jp/contests/abc046/tasks/abc046_b)
+  - [x] [ABC048 B](https://atcoder.jp/contests/abc048/tasks/abc048_b)
+  - [x] [ABC060 B](https://atcoder.jp/contests/abc060/tasks/abc060_b)
+  - [x] [ABC065 B](https://atcoder.jp/contests/abc065/tasks/abc065_b)
+  - [x] [ABC087 C](https://atcoder.jp/contests/abc087/tasks/arc090_a)
+  - [x] [ABC098 C](https://atcoder.jp/contests/abc098/tasks/arc098_a)
+  - [x] [ABC079 C](https://atcoder.jp/contests/abc079/tasks/abc079_c)
 
 ---
 
 ## [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](https://qiita.com/e869120/items/f1c6f98364d1443148b3)
 
-- [x] ABC155 B
-- [x] ABC154 B
-- [x] ABC152 B
-- [x] ABC148 B
-- [x] ABC146 B
-- [x] ABC151 B
-- [x] ABC150 B
-- [x] ABC144 B
-- [x] ABC143 B
-- [x] ABC122 B
-- [x] ABC136 B
-- [x] ABC106 B
-- [x] ABC120 B
-- [x] ABC057 C
-- [x] ABC095 C
-- [x] 三井住友信託銀行プログラミングコンテスト 2019 D
-- [x] ABC128 C
-- [x] ABC147 C
-- [x] ABC145 C
-- [x] ABC150 C
-- [x] ABC054 C
+- [x] [ABC155 B](https://atcoder.jp/contests/abc155/tasks/abc155_b)
+- [x] [ABC154 B](https://atcoder.jp/contests/abc154/tasks/abc154_b)
+- [x] [ABC152 B](https://atcoder.jp/contests/abc152/tasks/abc152_b)
+- [x] [ABC148 B](https://atcoder.jp/contests/abc148/tasks/abc148_b)
+- [x] [ABC146 B](https://atcoder.jp/contests/abc146/tasks/abc146_b)
+- [x] [ABC151 B](https://atcoder.jp/contests/abc151/tasks/abc151_b)
+- [x] [ABC150 B](https://atcoder.jp/contests/abc150/tasks/abc150_b)
+- [x] [ABC144 B](https://atcoder.jp/contests/abc144/tasks/abc144_b)
+- [x] [ABC143 B](https://atcoder.jp/contests/abc143/tasks/abc143_b)
+- [x] [ABC122 B](https://atcoder.jp/contests/abc122/tasks/abc122_b)
+- [x] [ABC136 B](https://atcoder.jp/contests/abc136/tasks/abc136_b)
+- [x] [ABC106 B](https://atcoder.jp/contests/abc106/tasks/abc106_b)
+- [x] [ABC120 B](https://atcoder.jp/contests/abc120/tasks/abc120_b)
+- [x] [ABC057 C](https://atcoder.jp/contests/abc057/tasks/abc057_c)
+- [x] [ABC095 C](https://atcoder.jp/contests/abc095/tasks/arc096_a)
+- [x] [三井住友信託銀行プログラミングコンテスト 2019 D](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
+- [x] [ABC128 C](https://atcoder.jp/contests/abc128/tasks/abc128_c)
+- [x] [ABC147 C](https://atcoder.jp/contests/abc147/tasks/abc147_c)
+- [x] [ABC145 C](https://atcoder.jp/contests/abc145/tasks/abc145_c)
+- [x] [ABC150 C](https://atcoder.jp/contests/abc150/tasks/abc150_c)
+- [x] [ABC054 C](https://atcoder.jp/contests/abc054/tasks/abc054_c)
 
 ---
 
@@ -369,3 +364,52 @@
 
 - [ ] ABC 031 D
 - [ ] M-SOLUTION2020 E
+
+## [AtCoder 版！蟻本 (初級編)](https://qiita.com/drken/items/e77685614f3c6bf86f44)
+
+### 1-6 気楽にウォーミングアップ
+
+[例題 1-6-1 三角形]
+
+- [x] [ARC004 A](https://atcoder.jp/contests/arc004/tasks/arc004_1)
+- [x] [ABC051 B](https://atcoder.jp/contests/abc051/tasks/abc051_b)
+- [x] [ABC085 C](https://atcoder.jp/contests/abc085/tasks/abc085_c)
+- [x] [ABC175 B](https://atcoder.jp/contests/abc175/tasks/abc175_b)
+
+[例題 1-6-2　Ants (POJ No.1852)]
+
+- [] 
+
+### 2-1 すべての基本 "全探索"
+
+[bit全探索]
+
+- [x] [ABC045 C](https://atcoder.jp/contests/arc061/tasks/arc061_a)
+- [x] [ABC079 C](https://atcoder.jp/contests/abc079/tasks/abc079_c)
+- [x] [ABC104 C](https://atcoder.jp/contests/abc104/tasks/abc104_c)
+- [x] [ARC029 A](https://atcoder.jp/contests/arc029/tasks/arc029_1)
+- [x] [ABC002 D](https://atcoder.jp/contests/abc002/tasks/abc002_4)
+
+[DFS]
+
+- [x] [ATC001 A](https://atcoder.jp/contests/atc001/tasks/dfs_a)
+- [x] [ARC031 B](https://atcoder.jp/contests/arc031/tasks/arc031_2)
+- [] [ARC037 B]()
+- [x] [AOJ1160](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp)
+
+[BFS]
+
+- [x] [ABC007 C](https://atcoder.jp/contests/abc007/tasks/abc007_3)
+- [x] [JOI2010-2011 予選 E](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)
+- [x] [ABC088 D](https://atcoder.jp/contests/abc088/tasks/abc088_d)
+- [x] [AGC033 A](https://atcoder.jp/contests/agc033/tasks/agc033_a)
+- [x] [ARC005 C](https://atcoder.jp/contests/agc033/tasks/agc033_a)
+- [ ] [AOJ0503]()
+
+[特殊な状態の列挙]
+
+-[x] [ABC054 C](https://atcoder.jp/contests/abc054/tasks/abc054_c)
+-[ ] [JOI2010yo D]()
+-[x] [yukicoder133](https://yukicoder.me/problems/199)
+
+### 2-2 猪突猛進！ "貪欲法"
