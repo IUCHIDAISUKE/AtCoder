@@ -15,10 +15,16 @@ int dy[] = {0, -1, 0, 1};
 
 int main()
 {
-    string a;
-    cin >> a;
+    ll x, y;
+    cin >> x >> y;
 
-    string t = "a";
-    cout << ((a == t) ? "-1" : t) << "\n";
+    ll num = x;
+    int ans = 0;
+    while (num <= y)
+    {
+        ans++;
+        num *= 2;
+    }
+    cout << ans << "\n";
     return 0;
 }

@@ -15,10 +15,9 @@ int dy[] = {0, -1, 0, 1};
 
 int main()
 {
-    string a;
-    cin >> a;
+    int a, b;
+    cin >> a >> b;
 
-    string t = "a";
-    cout << ((a == t) ? "-1" : t) << "\n";
+    printf("%.10f\n", (1 - 1. * b / a) * 100);
     return 0;
 }

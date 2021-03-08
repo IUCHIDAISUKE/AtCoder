@@ -2,6 +2,7 @@
 #define rep(i, n) for (int i = 0; i < (n); i++)
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
+
 using namespace std;
 using ll = long long;
 using P = pair<int, int>;
@@ -15,10 +16,25 @@ int dy[] = {0, -1, 0, 1};
 
 int main()
 {
-    string a;
-    cin >> a;
+    int a, b;
+    cin >> a >> b;
 
-    string t = "a";
-    cout << ((a == t) ? "-1" : t) << "\n";
+    int n = a + b;
+    if (n >= 15 && b >= 8)
+    {
+        cout << 1 << "\n";
+    }
+    else if (n >= 10 && b >= 3)
+    {
+        cout << 2 << "\n";
+    }
+    else if (n >= 3)
+    {
+        cout << 3 << "\n";
+    }
+    else
+    {
+        cout << 4 << "\n";
+    }
     return 0;
 }

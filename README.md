@@ -394,7 +394,7 @@
 
 - [x] [ATC001 A](https://atcoder.jp/contests/atc001/tasks/dfs_a)
 - [x] [ARC031 B](https://atcoder.jp/contests/arc031/tasks/arc031_2)
-- [] [ARC037 B]()
+- [ ] [ARC037 B]()
 - [x] [AOJ1160](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160&lang=jp)
 
 [BFS]
@@ -408,8 +408,71 @@
 
 [特殊な状態の列挙]
 
--[x] [ABC054 C](https://atcoder.jp/contests/abc054/tasks/abc054_c)
--[ ] [JOI2010yo D]()
--[x] [yukicoder133](https://yukicoder.me/problems/199)
+- [x] [ABC054 C](https://atcoder.jp/contests/abc054/tasks/abc054_c)
+- [ ] [JOI2010yo D]()
+- [x] [yukicoder133](https://yukicoder.me/problems/199)
 
 ### 2-2 猪突猛進！ "貪欲法"
+
+[例題 2-2-1　硬貨の問題]
+
+- [x] [JOI2008yo A](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_a)
+- [ ] [DPL 1-A]()
+
+[例題 2-2-2　区間スケジューリング問題]
+
+- [x] [KEYENCE2020 B](https://atcoder.jp/contests/keyence2020/tasks/keyence2020_b)
+- [x] [ABC103 D](https://atcoder.jp/contests/abc103/tasks/abc103_d)
+- [ ] [CodeforcesRound#296 B]()
+- [ ] [ABC038 D]()
+
+[例題 2-2-3　Best Cow Line (POJ No.3617)]
+
+- [x] [ABC076 C](https://atcoder.jp/contests/abc076/tasks/abc076_c)
+- [x] [ABC007 B](https://atcoder.jp/contests/abc007/tasks/abc007_2)
+- [ ] [ABC009 C]()
+
+[例題 2-2-4　Saruman's Army (POJ No.3069)]
+
+- [x] [ABC083 C](https://atcoder.jp/contests/abc083/tasks/arc088_a)
+- [x] [ARC006 C](https://atcoder.jp/contests/arc006/tasks/arc006_3)
+- [x] [ABC005 C](https://atcoder.jp/contests/abc005/tasks/abc005_3)
+- [ ] [ABC091 C]()
+
+
+### 2-3 値を覚えて再利用 "動的計画法"
+
+### 2-4 データを工夫して記憶する "データ構造"
+
+[例題 2-4-2　二分探索木 (set, map の練習)]
+
+- [x] [ABC085 B](https://atcoder.jp/contests/abc085/tasks/abc085_b)
+- [x] [ABC091 B](https://atcoder.jp/contests/abc091/tasks/abc091_b)
+
+### 2-6 数学的な問題を解くコツ
+
+[例題 2-6-1　線分上の格子点の個数]
+
+- [x] [AOJ0583](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0583)
+- [x] [ABC070 C](https://atcoder.jp/contests/abc070/tasks/abc070_c)
+- [ ] [AGC001 B]()
+- [x] [AGC018 A](https://atcoder.jp/contests/agc018/tasks/agc018_a)
+
+[例題 2-6-2　双六]
+- [ ] [NTL1-E]()
+- [ ] []
+- [ ] []
+
+
+[例題 2-6-3　素数判定]
+
+- [x] [ARC017 A](https://atcoder.jp/contests/arc017/tasks/arc017_1)
+- [x] [ABC052 C](https://atcoder.jp/contests/abc052/tasks/arc067_a)
+- [ ] [ABC110 D](https://atcoder.jp/contests/abc110/tasks/abc110_d)
+
+[例題 2-6-4　素数の個数]
+
+- [ ] [天下一プログラマーコンテスト2012 予選C A](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)
+- [ ] [ABC084 D](https://atcoder.jp/contests/abc084/tasks/abc084_d)
+- [ ] [AOJ0009]()
+- [ ] [AOJ2286]()

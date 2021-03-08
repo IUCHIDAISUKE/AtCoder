@@ -2,6 +2,7 @@
 #define rep(i, n) for (int i = 0; i < (n); i++)
 #define rep2(i, a, b) for (int i = (a); i < (b); ++i)
 #define all(a) (a).begin(), (a).end()
+
 using namespace std;
 using ll = long long;
 using P = pair<int, int>;
@@ -15,10 +16,18 @@ int dy[] = {0, -1, 0, 1};
 
 int main()
 {
-    string a;
-    cin >> a;
+    int n, x, y, z;
+    cin >> n >> x >> y >> z;
+    vector<int> a(n), b(n);
+    rep(i, n) cin >> a[i] >> b[i];
 
-    string t = "a";
-    cout << ((a == t) ? "-1" : t) << "\n";
+    int ans = 0;
+
+    rep(i, n)
+    {
+        if ((a[i] >= x && b[i] >= y) && (a[i] + b[i] >= z))
+            ans++;
+    }
+    cout << ans << "\n";
     return 0;
 }

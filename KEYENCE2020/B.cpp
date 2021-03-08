@@ -15,10 +15,26 @@ int dy[] = {0, -1, 0, 1};
 
 int main()
 {
-    string a;
-    cin >> a;
+    int n;
+    cin >> n;
+    pair<int, int> itv[n];
+    rep(i, n)
+    {
+        int x, l;
+        cin >> x >> l;
+        itv[i].first = x + l, itv[i].second = x - l;
+    }
+    sort(itv, itv + n);
+    int ans = 0, t = itv[0].second;
+    rep(i, n)
+    {
+        if (t <= itv[i].second)
+        {
+            ans++;
+            t = itv[i].first;
+        }
+    }
 
-    string t = "a";
-    cout << ((a == t) ? "-1" : t) << "\n";
+    cout << ans << "\n";
     return 0;
 }

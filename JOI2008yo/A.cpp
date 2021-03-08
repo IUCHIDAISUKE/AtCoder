@@ -15,10 +15,19 @@ int dy[] = {0, -1, 0, 1};
 
 int main()
 {
-    string a;
-    cin >> a;
+    int n;
+    cin >> n;
+    n = 1000 - n;
 
-    string t = "a";
-    cout << ((a == t) ? "-1" : t) << "\n";
+    int res = 0;
+    const int v[] = {1, 5, 10, 50, 100, 500};
+    for (int i = 5; i >= 0; i--)
+    {
+        int tmp = n / v[i];
+        res += tmp;
+        n -= tmp * v[i];
+    }
+
+    cout << res << "\n";
     return 0;
 }
