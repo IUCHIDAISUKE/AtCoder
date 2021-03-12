@@ -472,7 +472,43 @@
 
 [例題 2-6-4　素数の個数]
 
-- [ ] [天下一プログラマーコンテスト2012 予選C A](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)
-- [ ] [ABC084 D](https://atcoder.jp/contests/abc084/tasks/abc084_d)
-- [ ] [AOJ0009]()
+- [x] [天下一プログラマーコンテスト2012 予選C A](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)
+- [x] [ABC084 D](https://atcoder.jp/contests/abc084/tasks/abc084_d)
+- [x] [AOJ0009](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0009&lang=jp) // コンパイルエラーになる
 - [ ] [AOJ2286]()
+
+[例題 2-6-5　区間内の素数の個数]
+
+[例題 2-6-6　Carmichael Numbers]
+
+## [AtCoder 版！マスター・オブ・整数 (素因数分解編)](https://qiita.com/drken/items/a14e9af0ca2d857dad23)
+
+[素数判定]
+
+- [x] [ABC149 C](https://atcoder.jp/contests/abc149/tasks/abc149_c)
+- [x] [ARC017 A](https://atcoder.jp/contests/arc017/tasks/arc017_1)
+- [ ] [東京工業大学プログラミングコンテスト2015 D](https://atcoder.jp/contests/ttpc2015/tasks/ttpc2015_d)
+
+[約数列挙]
+
+- [ ] [ARC026 B](https://atcoder.jp/contests/arc026/tasks/arc026_2)
+- [x] [ABC106 B](https://atcoder.jp/contests/abc106/tasks/abc106_b)
+- [ ] [ABC112 D]()
+- [ ] [ABC136 E]()
+
+[オイラー関数]
+
+- [ ] []
+
+[素因数分解:約数の構造]
+
+- [ ] [ARC032 A]()
+- [ ] [ABC069 C]()
+- [ ] [ABC169 D]()
+- [ ] [プログラミングバトル本戦 A]()
+- [ ] [ABC110 D]()
+
+[素因数分解:pで何回割れるか]
+
+- [ ] [ABC148 E]()
+- [ ] []()
