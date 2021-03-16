@@ -16,6 +16,7 @@
     - [2-4 データを工夫して記憶する "データ構造"](#2-4-データを工夫して記憶する-データ構造)
     - [2-6 数学的な問題を解くコツ](#2-6-数学的な問題を解くコツ)
   - [AtCoder 版！マスター・オブ・整数 (素因数分解編)](#atcoder-版マスターオブ整数-素因数分解編)
+  
 ## [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
 - [x] 01. [ABC086 A](https://atcoder.jp/contests/abc086/tasks/abc086_a)
@@ -507,22 +508,28 @@
 
 [約数列挙]
 
-- [ ] [ARC026 B](https://atcoder.jp/contests/arc026/tasks/arc026_2)
+- [x] [ARC026 B](https://atcoder.jp/contests/arc026/tasks/arc026_2)
 - [x] [ABC106 B](https://atcoder.jp/contests/abc106/tasks/abc106_b)
-- [ ] [ABC112 D]()
+- [x] [ABC112 D](https://atcoder.jp/contests/abc112/tasks/abc112_d)
 - [ ] [ABC136 E]()
 
 [オイラー関数]
 
 - [ ] []
 
+
+[素因数分解:素数を分け合う]
+
+- [x] [ARC032 A](https://atcoder.jp/contests/arc032/tasks/arc032_1)
+- [ ] [ABC069 C](https://atcoder.jp/contests/abc069/tasks/arc080_a)
+- [x] [ABC169 D](https://atcoder.jp/contests/abc169/tasks/abc169_d)
+- [x] [プログラミングバトル本戦 A](https://atcoder.jp/contests/bcu30-2018/tasks/bcu30_2018_a)
+- [ ] [ABC110 D]()
+
 [素因数分解:約数の構造]
 
-- [ ] [ARC032 A]()
-- [ ] [ABC069 C]()
-- [ ] [ABC169 D]()
-- [ ] [プログラミングバトル本戦 A]()
-- [ ] [ABC110 D]()
+- [ ] [ABC114 D](https://atcoder.jp/contests/abc114/tasks/abc114_d)
+- [ ] [ARC034 C](https://atcoder.jp/contests/arc034/tasks/arc034_3)
 
 [素因数分解:pで何回割れるか]
 

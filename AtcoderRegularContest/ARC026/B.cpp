@@ -19,25 +19,22 @@ int main()
     ll n;
     cin >> n;
 
-    vector<ll> div;
-    ll tmp = n;
+    vector<ll> fact;
     for (ll i = 1; i * i < n + 1; i++)
     {
-        if (tmp % i == 0)
-        {
-            div.push_back(i);
-            if (tmp / i != i)
-                div.push_back(tmp / i);
-        }
+        if (n % i)
+            continue;
+        fact.push_back(i);
+        if (i != n / i)
+            fact.push_back(n / i);
     }
-    sort(all(div));
-    ll ma = -n;
-    for (ll i : div)
-        ma += i;
-    if (ma < n)
+    ll tmp = -n;
+    for (ll i : fact)
+        tmp += i;
+    if (tmp < n)
         cout << "Deficient"
              << "\n";
-    else if (ma == n)
+    else if (tmp == n)
         cout << "Perfect"
              << "\n";
     else
@@ -45,3 +42,35 @@ int main()
              << "\n";
     return 0;
 }
+
+// int main()
+// {
+//     ll n;
+//     cin >> n;
+
+//     vector<ll> div;
+//     ll tmp = n;
+//     for (ll i = 1; i * i < n + 1; i++)
+//     {
+//         if (tmp % i == 0)
+//         {
+//             div.push_back(i);
+//             if (tmp / i != i)
+//                 div.push_back(tmp / i);
+//         }
+//     }
+//     sort(all(div));
+//     ll ma = -n;
+//     for (ll i : div)
+//         ma += i;
+//     if (ma < n)
+//         cout << "Deficient"
+//              << "\n";
+//     else if (ma == n)
+//         cout << "Perfect"
+//              << "\n";
+//     else
+//         cout << "Abundant"
+//              << "\n";
+//     return 0;
+// }
