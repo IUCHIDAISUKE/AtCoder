@@ -16,6 +16,14 @@
     - [2-4 データを工夫して記憶する "データ構造"](#2-4-データを工夫して記憶する-データ構造)
     - [2-6 数学的な問題を解くコツ](#2-6-数学的な問題を解くコツ)
   - [AtCoder 版！マスター・オブ・整数 (素因数分解編)](#atcoder-版マスターオブ整数-素因数分解編)
+    - [素数判定](#素数判定)
+    - [約数列挙](#約数列挙)
+    - [オイラー関数](#オイラー関数)
+    - [素因数分解:素数を分け合う](#素因数分解素数を分け合う)
+    - [素因数分解:約数の構造](#素因数分解約数の構造)
+    - [素因数分解:pで何回割れるか](#素因数分解pで何回割れるか)
+  - [AtCoder 版！マスター・オブ・整数 (最大公約数編)](#atcoder-版マスターオブ整数-最大公約数編)
+    - [単純な最大公約数・最小公倍数](#単純な最大公約数最小公倍数)
   
 ## [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
@@ -121,17 +129,17 @@
 - [x] 004. [パ研杯 2019 B](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
 - [x] 005. [ABC095 C](https://atcoder.jp/contests/abc095/tasks/arc096_a)
 - [x] 006. [三井住友信託銀行プログラミングコンテスト 2019 D](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
-- [ ] 007. JOI2007 本選 3
+- [ ] 007. [JOI2007 本選 3]()
 - [x] 008. [square869120Contest #6 B](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)
 - [ ] 009. JOI2008 予選 4
 
 [bit 全探索]
 
-- [x] 010. [ALDS5 A](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_A&lang=ja) // (dp で計算量を改善するには?)
+- [x] 010. [ALDS 5-A](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_A&lang=ja) // (dp で計算量を改善するには?)
 - [x] 011. [ABC128 C](https://atcoder.jp/contests/abc128/tasks/abc128_c)
-- [ ] 012. [ABC002 D](https://atcoder.jp/contests/abc002/tasks/abc002_4)
-- [ ] 013. JOI2008 予選 5
-- [ ] 014. square869120Contest #4 B
+- [x] 012. [ABC002 D](https://atcoder.jp/contests/abc002/tasks/abc002_4)
+- [x] 013. [JOI2008 予選 5](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)
+- [x] 014. [square869120Contest #4 B](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)
 
 [順列全探索]
 
@@ -154,7 +162,7 @@
 - [ ] 025. AOJ1160
 - [ ] 026. ABC138 D
 - [ ] 027. JOI2009 予選 4
-  - [ ] [ABC029 C](https://atcoder.jp/contests/abc029/tasks/abc029_c)
+- [ ] [ABC029 C](https://atcoder.jp/contests/abc029/tasks/abc029_c)
 
 [幅優先探索]
 
@@ -500,38 +508,47 @@
 
 ## [AtCoder 版！マスター・オブ・整数 (素因数分解編)](https://qiita.com/drken/items/a14e9af0ca2d857dad23)
 
-[素数判定]
+### 素数判定
 
 - [x] [ABC149 C](https://atcoder.jp/contests/abc149/tasks/abc149_c)
 - [x] [ARC017 A](https://atcoder.jp/contests/arc017/tasks/arc017_1)
-- [ ] [東京工業大学プログラミングコンテスト2015 D](https://atcoder.jp/contests/ttpc2015/tasks/ttpc2015_d)
+- [x] [東京工業大学プログラミングコンテスト2015 D](https://atcoder.jp/contests/ttpc2015/tasks/ttpc2015_d)
 
-[約数列挙]
+### 約数列挙
 
 - [x] [ARC026 B](https://atcoder.jp/contests/arc026/tasks/arc026_2)
 - [x] [ABC106 B](https://atcoder.jp/contests/abc106/tasks/abc106_b)
 - [x] [ABC112 D](https://atcoder.jp/contests/abc112/tasks/abc112_d)
 - [ ] [ABC136 E]()
 
-[オイラー関数]
+### オイラー関数
 
 - [ ] []
 
 
-[素因数分解:素数を分け合う]
+### 素因数分解:素数を分け合う
 
 - [x] [ARC032 A](https://atcoder.jp/contests/arc032/tasks/arc032_1)
-- [ ] [ABC069 C](https://atcoder.jp/contests/abc069/tasks/arc080_a)
+- [x] [ABC069 C](https://atcoder.jp/contests/abc069/tasks/arc080_a)
 - [x] [ABC169 D](https://atcoder.jp/contests/abc169/tasks/abc169_d)
 - [x] [プログラミングバトル本戦 A](https://atcoder.jp/contests/bcu30-2018/tasks/bcu30_2018_a)
-- [ ] [ABC110 D]()
+- [x] [ABC110 D](https://atcoder.jp/contests/abc110/tasks/abc110_d)
 
-[素因数分解:約数の構造]
+### 素因数分解:約数の構造
 
-- [ ] [ABC114 D](https://atcoder.jp/contests/abc114/tasks/abc114_d)
-- [ ] [ARC034 C](https://atcoder.jp/contests/arc034/tasks/arc034_3)
+- [x] [ABC114 D](https://atcoder.jp/contests/abc114/tasks/abc114_d)
+- [x] [ARC034 C](https://atcoder.jp/contests/arc034/tasks/arc034_3)
+- [ ] [AOJ2932]()
+- [ ] [AOJ2706](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2706)
 
-[素因数分解:pで何回割れるか]
+### 素因数分解:pで何回割れるか
 
-- [ ] [ABC148 E]()
+- [x] [ABC148 E](https://atcoder.jp/contests/abc148/tasks/abc148_e)
 - [ ] []()
+
+## [AtCoder 版！マスター・オブ・整数 (最大公約数編)](https://qiita.com/drken/items/0c88a37eec520f82b788)
+
+### 単純な最大公約数・最小公倍数
+
+- [x] [ABC070 C](https://atcoder.jp/contests/abc070/tasks/abc070_c)
+- [ ] [ABC125 C](https://atcoder.jp/contests/abc125/tasks/abc125_c) // 別解確認すること
