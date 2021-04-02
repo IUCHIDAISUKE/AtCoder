@@ -14,33 +14,18 @@ const double PI = acos(-1);
 int dx[] = {1, 0, -1, 0};
 int dy[] = {0, -1, 0, 1};
 
-int keta(int n)
-{
-    int res = 0;
-    while (n)
-    {
-        res++;
-        n /= 10;
-    }
-    return res;
-}
-
 int main()
 {
-    int n;
-    cin >> n;
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
 
-    int ans = 0;
-    for (int i = 1; i < n + 1; i += 2)
+    int ans = -1000;
+    for (int i = a; i < b + 1; i++)
     {
-        int j = 1, cnt = 0;
-        while (j < i + 1)
+        for (int j = c; j < d + 1; j++)
         {
-            if (i % j == 0)
-                cnt++;
-            j++;
+            ans = max(ans, i - j);
         }
-        ans += (cnt == 8);
     }
 
     cout << ans << "\n";

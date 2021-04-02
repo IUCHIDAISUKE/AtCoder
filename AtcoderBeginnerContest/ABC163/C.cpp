@@ -23,3 +23,21 @@ int main()
     }
     return 0;
 }
+
+// int main()
+// {
+//     int n;
+//     cin >> n;
+//     map<int, int> a;
+//     rep(i, n - 1)
+//     {
+//         int tmp;
+//         cin >> tmp;
+//         a[tmp]++;
+//     }
+
+//     rep(i, n)
+//             cout
+//         << a[i + 1] << "\n";
+//     return 0;
+// }

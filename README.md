@@ -4,10 +4,31 @@
   - [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](#atcoder-に登録したら次にやること--これだけ解けば十分闘える過去問精選-10-問-)
   - [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【初級編：競プロを始めよう】](#レッドコーダーが教える競プロatcoder-上達のガイドライン初級編競プロを始めよう)
   - [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【中級編：目指せ水色コーダー！】](#レッドコーダーが教える競プロatcoder-上達のガイドライン中級編目指せ水色コーダー)
+    - [全探索](#全探索)
+    - [bit全探索](#bit全探索)
+    - [順列全探索](#順列全探索)
+    - [二分探索](#二分探索)
+    - [深さ優先探索](#深さ優先探索)
+    - [幅優先探索](#幅優先探索)
+    - [動的計画法](#動的計画法)
+    - [最短経路問題：ダイクストラ法](#最短経路問題ダイクストラ法)
+    - [最短経路問題：ワーシャルフロイド法](#最短経路問題ワーシャルフロイド法)
+    - [最小全域木問題](#最小全域木問題)
+    - [高速な素数判定](#高速な素数判定)
+    - [高速なべき乗計算](#高速なべき乗計算)
+    - [累積和](#累積和)
+    - [しゃくとり法](#しゃくとり法)
   - [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](#動的計画法超入門-educational-dp-contest-の-a--e-問題の解説と類題集)
   - [Educational DP Contest / DP まとめコンテスト](#educational-dp-contest--dp-まとめコンテスト)
   - [Typical DP Contest](#typical-dp-contest)
   - [たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](#たのしい探索アルゴリズムの世界前編全探索bit-全探索から半分全列挙まで)
+    - [2-3.全探索で問われる基本パターン 3 個](#2-3全探索で問われる基本パターン-3-個)
+    - [2-4.全探索の工夫パターン 3 個](#2-4全探索の工夫パターン-3-個)
+    - [3-1. bit 全探索](#3-1-bit-全探索)
+    - [3-2. 順列全探索](#3-2-順列全探索)
+    - [3-3. 再帰関数を用いた全探索](#3-3-再帰関数を用いた全探索)
+    - [3-4. 幅優先探索](#3-4-幅優先探索)
+    - [3-5. bit 全探索の拡張](#3-5-bit-全探索の拡張)
   - [AtCoder 版！蟻本 (初級編)](#atcoder-版蟻本-初級編)
     - [1-6 気楽にウォーミングアップ](#1-6-気楽にウォーミングアップ)
     - [2-1 すべての基本 "全探索"](#2-1-すべての基本-全探索)
@@ -24,6 +45,8 @@
     - [素因数分解:pで何回割れるか](#素因数分解pで何回割れるか)
   - [AtCoder 版！マスター・オブ・整数 (最大公約数編)](#atcoder-版マスターオブ整数-最大公約数編)
     - [単純な最大公約数・最小公倍数](#単純な最大公約数最小公倍数)
+  - [累積和を何も考えずに書けるようにする！](#累積和を何も考えずに書けるようにする)
+    - [累積和の例題](#累積和の例題)
   
 ## [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
@@ -110,7 +133,7 @@
 - [x] [ABC120 B](https://atcoder.jp/contests/abc120/tasks/abc120_b)
 - [x] [ABC057 C](https://atcoder.jp/contests/abc057/tasks/abc057_c)
 - [x] [ABC095 C](https://atcoder.jp/contests/abc095/tasks/arc096_a)
-- [x] [三井住友信託銀行プログラミングコンテスト 2019 D](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
+- [x] [三井住友信託銀行プログラミングコンテスト2019 D](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
 - [x] [ABC128 C](https://atcoder.jp/contests/abc128/tasks/abc128_c)
 - [x] [ABC147 C](https://atcoder.jp/contests/abc147/tasks/abc147_c)
 - [x] [ABC145 C](https://atcoder.jp/contests/abc145/tasks/abc145_c)
@@ -121,33 +144,33 @@
 
 ## [レッドコーダーが教える、競プロ・AtCoder 上達のガイドライン【中級編：目指せ水色コーダー！】](https://qiita.com/e869120/items/eb50fdaece12be418faa)
 
-[全探索]
+### 全探索
 
 - [x] 001. [ITP1-7 B](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_7_B&lang=ja)
 - [x] 002. [ABC106 B](https://atcoder.jp/contests/abc106/tasks/abc106_b)
 - [x] 003. [ABC122 B](https://atcoder.jp/contests/abc122/tasks/abc122_b)
-- [x] 004. [パ研杯 2019 B](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
+- [x] 004. [パ研杯2019 B](https://atcoder.jp/contests/pakencamp-2019-day3/tasks/pakencamp_2019_day3_c)
 - [x] 005. [ABC095 C](https://atcoder.jp/contests/abc095/tasks/arc096_a)
-- [x] 006. [三井住友信託銀行プログラミングコンテスト 2019 D](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
-- [ ] 007. [JOI2007 本選 3]()
-- [x] 008. [square869120Contest #6 B](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)
+- [x] 006. [三井住友信託銀行プログラミングコンテスト2019 D](https://atcoder.jp/contests/sumitrust2019/tasks/sumitb2019_d)
+- [ ] 007. [JOI2007本選 3]()
+- [x] 008. [square869120Contest#6 B](https://atcoder.jp/contests/s8pc-6/tasks/s8pc_6_b)
 - [ ] 009. JOI2008 予選 4
 
-[bit 全探索]
+### bit全探索
 
-- [x] 010. [ALDS 5-A](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_A&lang=ja) // (dp で計算量を改善するには?)
+- [x] 010. [ALDS1-5 A](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ALDS1_5_A&lang=ja) // (dp で計算量を改善するには?)
 - [x] 011. [ABC128 C](https://atcoder.jp/contests/abc128/tasks/abc128_c)
 - [x] 012. [ABC002 D](https://atcoder.jp/contests/abc002/tasks/abc002_4)
-- [x] 013. [JOI2008 予選 5](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)
-- [x] 014. [square869120Contest #4 B](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)
-
-[順列全探索]
+- [x] 013. [JOI2008予選 5](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_e)
+- [x] 014. [square869120Contest#4 B](https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_b)
+  
+### 順列全探索
 
 - [x] 015. [ABC145 C](https://atcoder.jp/contests/abc145/tasks/abc145_c)
 - [x] 016. [ABC150 C](https://atcoder.jp/contests/abc150/tasks/abc150_c)
 - [ ] 017. [ALDS 13-A]
 
-[二分探索]
+### 二分探索
 
 - [ ] 018. ALDS 4-B
 - [ ] 019. JOI2009 本選 2
@@ -156,7 +179,7 @@
 - [ ] 022. ABC054 B
 - [ ] 023. JOI2008 春合宿 cheating
 
-[深さ優先探索]
+### 深さ優先探索
 
 - [ ] 024. ALDS 11-B
 - [ ] 025. AOJ1160
@@ -164,7 +187,7 @@
 - [ ] 027. JOI2009 予選 4
 - [ ] [ABC029 C](https://atcoder.jp/contests/abc029/tasks/abc029_c)
 
-[幅優先探索]
+### 幅優先探索
 
 - [ ] 028. ALDS 11-C
 - [ ] 029. ABC007 C
@@ -173,18 +196,18 @@
 - [ ] 032. AOJ 1166
 - [ ] 033. ABC088 D
 
-[動的計画法]
+### 動的計画法
 
 - [ ] 034. ALDS 10-A
 - [ ] 035. DPL 1-B
 - [ ] 036. DPL 1-C
 - [ ] 037. DPL 1-A
 - [ ] 038. ALDS 10-C
-- [ ] 039. JOI 2011 予選 4
-- [ ] 040. JOI 2012 予選 4
-- [ ] 041. JOI 2013 予選 4
-- [ ] 042. JOI 2015 予選 4
-- [ ] 043. パ研杯 2019 D
+- [ ] 039. JOI2011 予選 4
+- [ ] 040. JOI2012 予選 4
+- [ ] 041. JOI2013 予選 4
+- [ ] 042. JOI2015 予選 4
+- [ ] 043. パ研杯2019 D
 - [ ] 044. AOJ 1167
 - [ ] 045. AOJ 2199
 - [ ] 046. ALDS 10-B
@@ -198,52 +221,51 @@
 - [ ] 054. ABC006 D
 - [ ] 055. ABC134 E
 
-[最短経路問題：ダイクストラ法]
+### 最短経路問題：ダイクストラ法
 
 - [ ] 056. GRL 1-A
 - [ ] 057. JOI 2008 予選 6
 - [ ] 058. JOI 2016 予選 5
 - [ ] 059. JOI 2014 予選 5
 
-[最短経路問題：ワーシャルフロイド法]
+### 最短経路問題：ワーシャルフロイド法
 
 - [ ] 060. GRL 1-C
 - [ ] 061. ABC012 D
 - [ ] 062. ABC079 D
 - [ ] 063. ABC074 D
 
-[最小全域木問題]
+### 最小全域木問題
 
 - [ ] 064. GRL 2-A
 - [ ] 065. JOI 2010 春合宿 finals
 - [ ] 066. AOJ1127
 - [ ] 067. ABC065 D
 
-[高速な素数判定]
+### 高速な素数判定
 
 - [ ] 068. NTL 1-B
 - [ ] 069. ABC084 D
 
-[高速なべき乗計算]
+### 高速なべき乗計算
 
 - [ ] 070. NTL 1-B
 - [ ] 071. Square869120Contest #1 E
 
+### 累積和
 
-[累積和]
+- [x] [全国統一プログラミング王決定戦本戦 A](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a)
+- [ ] [JOI2010本選 A](https://atcoder.jp/contests/joi2010ho/tasks/joi2010ho_a)
+- [ ] [JOI2011本選 A](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)
+- [ ] [ABC106 D](https://atcoder.jp/contests/abc106/tasks/abc106_d)
+- [x] [GigaCode2019 D]
+  - [x] [JOI2006/2007本選 A]
+  - [x] [ABC084 D]
+  - [x] [ABC122 C]
+  - [x] [AGC023 A]
+  - [x] [ABC005 D]
 
-- [x] 全国統一プログラミング王決定戦本戦 A
-- [x] JOI2009/2010 本選 A
-- [x] JOI2010/2011 本選 A
-- [x] ABC106 D
-- [x] GigaCode2019 D
-  - [x] JOI 2006/2007 本選 A
-  - [x] ABC084 D
-  - [x] ABC122 C
-  - [x] AGC023 A
-  - [x] ABC005 D
-
-[しゃくとり法]
+### しゃくとり法
 
 - [x] DSL 3-C
 - [x] ABC032 C
@@ -343,14 +365,24 @@
 
 ## [たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
 
-[全探索]
 
-- [x] ABC136 B
-- [x] ABC068 B
-- [x] ABC133 B
-- [x] 三井住友信託銀行プログラミングコンテスト 2019 B
-- [x] M-SOLUTIONS プロコンオープン 2020 B
-- [x] ABC157 C
+- [ ] [ABC165 C](https://atcoder.jp/contests/abc165/tasks/abc165_c)
+- [x] [ABC167 C](https://atcoder.jp/contests/abc167/tasks/abc167_c)
+- [x] [ABC163 C](https://atcoder.jp/contests/abc163/tasks/abc163_c)
+- [x] [ABC164 C](https://atcoder.jp/contests/abc164/tasks/abc164_c)
+- [ ] [ABC166 C](https://atcoder.jp/contests/abc166/tasks/abc166_c)
+
+### 2-3.全探索で問われる基本パターン 3 個
+
+- [x] [ABC136 B]
+- [x] [ABC068 B]
+- [x] [ABC133 B]
+- [x] [三井住友信託銀行プログラミングコンテスト 2019 B]
+- [x] [M-SOLUTIONS プロコンオープン 2020 B]
+- [x] [ABC157 C]
+  
+### 2-4.全探索の工夫パターン 3 個
+
 - [x] ABC095 C
 - [x] ABC112 C
 - [x] ABC057 C
@@ -359,33 +391,33 @@
 - [x] 三井住友信託銀行プログラミングコンテスト 2019 C
 - [x] ABC089 C
 
-[bit 全探索]
+### 3-1. bit 全探索
 
 - [x] ABC128 C
 - [x] ABC147 C
 - [x] ABC167 C
 - [ ] square869120Contest #4 B
 
-[順列全探索]
+### 3-2. 順列全探索
 
 - [x] ABC145 C
 - [x] ABC150 C
 - [x] ABC054 C
 
-[DFS]
+### 3-3. 再帰関数を用いた全探索
 
 - [x] ABC165 C
 - [x] CPSCO2019 Day1 C
 - [x] パナソニックプログラミングコンテスト 2020 D -> again
 - [x] ABC114 C
 
-[BFS]
+### 3-4. 幅優先探索
 
 - [ ] ALDS11 C
 - [ ] JOI 2007 5
 - [ ] JOI 2012 5
 
-[拡張 bit 全探索]
+### 3-5. bit 全探索の拡張
 
 - [ ] ABC 031 D
 - [ ] M-SOLUTION2020 E
@@ -425,7 +457,7 @@
 [BFS]
 
 - [x] [ABC007 C](https://atcoder.jp/contests/abc007/tasks/abc007_3)
-- [x] [JOI2010-2011 予選 E](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)
+- [x] [JOI2011予選 E](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)
 - [x] [ABC088 D](https://atcoder.jp/contests/abc088/tasks/abc088_d)
 - [x] [AGC033 A](https://atcoder.jp/contests/agc033/tasks/agc033_a)
 - [x] [ARC005 C](https://atcoder.jp/contests/agc033/tasks/agc033_a)
@@ -434,14 +466,14 @@
 [特殊な状態の列挙]
 
 - [x] [ABC054 C](https://atcoder.jp/contests/abc054/tasks/abc054_c)
-- [ ] [JOI2010yo D]()
+- [ ] [JOI2010予選 D]()
 - [x] [yukicoder133](https://yukicoder.me/problems/199)
 
 ### 2-2 猪突猛進！ "貪欲法"
 
 [例題 2-2-1　硬貨の問題]
 
-- [x] [JOI2008yo A](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_a)
+- [x] [JOI2008予選 A](https://atcoder.jp/contests/joi2008yo/tasks/joi2008yo_a)
 - [ ] [DPL 1-A]()
 
 [例題 2-2-2　区間スケジューリング問題]
@@ -497,7 +529,7 @@
 
 [例題 2-6-4　素数の個数]
 
-- [x] [天下一プログラマーコンテスト2012 予選C A](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)
+- [x] [天下一プログラマーコンテスト2012予選C A](https://atcoder.jp/contests/tenka1-2012-qualc/tasks/tenka1_2012_9)
 - [x] [ABC084 D](https://atcoder.jp/contests/abc084/tasks/abc084_d)
 - [x] [AOJ0009](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0009&lang=jp) // コンパイルエラーになる
 - [ ] [AOJ2286]()
@@ -531,7 +563,7 @@
 - [x] [ARC032 A](https://atcoder.jp/contests/arc032/tasks/arc032_1)
 - [x] [ABC069 C](https://atcoder.jp/contests/abc069/tasks/arc080_a)
 - [x] [ABC169 D](https://atcoder.jp/contests/abc169/tasks/abc169_d)
-- [x] [プログラミングバトル本戦 A](https://atcoder.jp/contests/bcu30-2018/tasks/bcu30_2018_a)
+- [x] [プログラミングバトル2018本戦 A](https://atcoder.jp/contests/bcu30-2018/tasks/bcu30_2018_a)
 - [x] [ABC110 D](https://atcoder.jp/contests/abc110/tasks/abc110_d)
 
 ### 素因数分解:約数の構造
@@ -552,3 +584,13 @@
 
 - [x] [ABC070 C](https://atcoder.jp/contests/abc070/tasks/abc070_c)
 - [ ] [ABC125 C](https://atcoder.jp/contests/abc125/tasks/abc125_c) // 別解確認すること
+
+## [累積和を何も考えずに書けるようにする！](https://qiita.com/drken/items/56a6b68edef8fc605821)
+
+### 累積和の例題
+
+- [x] [JOI2007本選 A](https://atcoder.jp/contests/joi2007ho/tasks/joi2007ho_a)
+- [x] [ABC084 D](https://atcoder.jp/contests/abc084/tasks/abc084_d)
+- [x] [ABC122 C](https://atcoder.jp/contests/abc122/tasks/abc122_c)
+- [x] [AGC023 A](https://atcoder.jp/contests/agc023/tasks/agc023_a)
+- [ ] [ABC005 D](https://atcoder.jp/contests/abc005/tasks/abc005_4)

@@ -14,35 +14,16 @@ const double PI = acos(-1);
 int dx[] = {1, 0, -1, 0};
 int dy[] = {0, -1, 0, 1};
 
-int keta(int n)
-{
-    int res = 0;
-    while (n)
-    {
-        res++;
-        n /= 10;
-    }
-    return res;
-}
-
 int main()
 {
-    int n;
-    cin >> n;
+    string a, b;
+    cin >> a >> b;
 
-    int ans = 0;
-    for (int i = 1; i < n + 1; i += 2)
-    {
-        int j = 1, cnt = 0;
-        while (j < i + 1)
-        {
-            if (i % j == 0)
-                cnt++;
-            j++;
-        }
-        ans += (cnt == 8);
-    }
-
-    cout << ans << "\n";
+    if (a[0] == 'S' && b[0] == 'H')
+        cout << "YES"
+             << "\n";
+    else
+        cout << "NO"
+             << "\n";
     return 0;
 }

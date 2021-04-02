@@ -4,7 +4,7 @@
 #define all(a) (a).begin(), (a).end()
 
 using namespace std;
-using ll = int64_t;
+using ll = long long int;
 using P = pair<int, int>;
 
 const ll INF_L = 1LL << 60;
@@ -14,33 +14,33 @@ const double PI = acos(-1);
 int dx[] = {1, 0, -1, 0};
 int dy[] = {0, -1, 0, 1};
 
-int keta(int n)
-{
-    int res = 0;
-    while (n)
-    {
-        res++;
-        n /= 10;
-    }
-    return res;
-}
-
 int main()
 {
     int n;
     cin >> n;
 
-    int ans = 0;
-    for (int i = 1; i < n + 1; i += 2)
+    vector<int> res(26, 0);
+    rep(i, n)
     {
-        int j = 1, cnt = 0;
-        while (j < i + 1)
+        string s;
+        cin >> s;
+        if (i == 0)
         {
-            if (i % j == 0)
-                cnt++;
-            j++;
+            rep(j, s.size())
+                res[s[j] - 'a']++;
         }
-        ans += (cnt == 8);
+        vector<int> tmp(26, 0);
+        rep(j, s.size())
+            tmp[s[j] - 'a']++;
+        rep(j, 26)
+            res[j] = min(res[j], tmp[j]);
+    }
+    string ans = "";
+    rep(i, 26)
+    {
+        char c = i + 'a';
+        rep(j, res[i])
+            ans += c;
     }
 
     cout << ans << "\n";

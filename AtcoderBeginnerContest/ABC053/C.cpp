@@ -4,7 +4,7 @@
 #define all(a) (a).begin(), (a).end()
 
 using namespace std;
-using ll = int64_t;
+using ll = long long int;
 using P = pair<int, int>;
 
 const ll INF_L = 1LL << 60;
@@ -14,35 +14,13 @@ const double PI = acos(-1);
 int dx[] = {1, 0, -1, 0};
 int dy[] = {0, -1, 0, 1};
 
-int keta(int n)
-{
-    int res = 0;
-    while (n)
-    {
-        res++;
-        n /= 10;
-    }
-    return res;
-}
-
 int main()
 {
-    int n;
-    cin >> n;
+    ll x;
+    cin >> x;
 
-    int ans = 0;
-    for (int i = 1; i < n + 1; i += 2)
-    {
-        int j = 1, cnt = 0;
-        while (j < i + 1)
-        {
-            if (i % j == 0)
-                cnt++;
-            j++;
-        }
-        ans += (cnt == 8);
-    }
-
+    ll a = (x + 11 - 1) / 11, b = (x + 5 + 11 - 1) / 11;
+    ll ans = min(2 * a, 2 * b - 1);
     cout << ans << "\n";
     return 0;
 }
