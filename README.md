@@ -255,10 +255,10 @@
 ### 累積和
 
 - [x] [全国統一プログラミング王決定戦本戦 A](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a)
-- [ ] [JOI2010本選 A](https://atcoder.jp/contests/joi2010ho/tasks/joi2010ho_a)
-- [ ] [JOI2011本選 A](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)
-- [ ] [ABC106 D](https://atcoder.jp/contests/abc106/tasks/abc106_d)
-- [x] [GigaCode2019 D]
+- [x] [JOI2010本選 A](https://atcoder.jp/contests/joi2010ho/tasks/joi2010ho_a)
+- [x] [JOI2011本選 A](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)
+- [x] [ABC106 D](https://atcoder.jp/contests/abc106/tasks/abc106_d)
+- [x] [GigaCode2019 D](https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d)
   - [x] [JOI2006/2007本選 A]
   - [x] [ABC084 D]
   - [x] [ABC122 C]
@@ -593,4 +593,4 @@
 - [x] [ABC084 D](https://atcoder.jp/contests/abc084/tasks/abc084_d)
 - [x] [ABC122 C](https://atcoder.jp/contests/abc122/tasks/abc122_c)
 - [x] [AGC023 A](https://atcoder.jp/contests/agc023/tasks/agc023_a)
-- [ ] [ABC005 D](https://atcoder.jp/contests/abc005/tasks/abc005_4)
+- [x] [ABC005 D](https://atcoder.jp/contests/abc005/tasks/abc005_4)
