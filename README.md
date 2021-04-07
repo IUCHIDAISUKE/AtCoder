@@ -16,6 +16,7 @@
     - [最小全域木問題](#最小全域木問題)
     - [高速な素数判定](#高速な素数判定)
     - [高速なべき乗計算](#高速なべき乗計算)
+    - [逆元を使う問題](#逆元を使う問題)
     - [累積和](#累積和)
     - [しゃくとり法](#しゃくとり法)
   - [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](#動的計画法超入門-educational-dp-contest-の-a--e-問題の解説と類題集)
@@ -47,6 +48,8 @@
     - [単純な最大公約数・最小公倍数](#単純な最大公約数最小公倍数)
   - [累積和を何も考えずに書けるようにする！](#累積和を何も考えずに書けるようにする)
     - [累積和の例題](#累積和の例題)
+  - [しゃくとり法 (尺取り法) の解説と、それを用いる問題のまとめ](#しゃくとり法-尺取り法-の解説とそれを用いる問題のまとめ)
+    - [しゃくとり法の例題](#しゃくとり法の例題)
   
 ## [AtCoder に登録したら次にやること ～ これだけ解けば十分闘える！過去問精選 10 問 ～](https://qiita.com/drken/items/fd4e5e3630d0f5859067)
 
@@ -249,8 +252,15 @@
 
 ### 高速なべき乗計算
 
-- [ ] 070. NTL 1-B
-- [ ] 071. Square869120Contest #1 E
+- [x] 070. [NTL 1-B](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_B&lang=ja)
+- [ ] 071. [Square869120Contest#1 E](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e)
+  
+### 逆元を使う問題
+
+- [ ] 072. [ABC034 C](https://atcoder.jp/contests/abc034/tasks/abc034_c)
+- [ ] 073. [ABC145 D](https://atcoder.jp/contests/abc145/tasks/abc145_d)
+- [x] 074. [ABC021 D](https://atcoder.jp/contests/abc021/tasks/abc021_d)
+- [ ] 075. [ABC149 F]()
 
 ### 累積和
 
@@ -594,3 +604,14 @@
 - [x] [ABC122 C](https://atcoder.jp/contests/abc122/tasks/abc122_c)
 - [x] [AGC023 A](https://atcoder.jp/contests/agc023/tasks/agc023_a)
 - [x] [ABC005 D](https://atcoder.jp/contests/abc005/tasks/abc005_4)
+
+## [しゃくとり法 (尺取り法) の解説と、それを用いる問題のまとめ](https://qiita.com/drken/items/ecd1a472d3a0e7db8dce)
+
+### しゃくとり法の例題
+
+- [x] [DSL3-C](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_3_C&lang=jp)
+- [x] [ABC032 C](https://atcoder.jp/contests/abc032/tasks/abc032_c)
+- [ ] [ABC038 C](https://atcoder.jp/contests/abc038/tasks/abc038_c)
+- [x] [ARC022 B](https://atcoder.jp/contests/arc022/tasks/arc022_2)
+- [x] [ABC098 D](https://atcoder.jp/contests/abc098/tasks/arc098_b)
+- [ ] [ABC017 D]()
