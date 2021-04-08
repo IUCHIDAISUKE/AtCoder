@@ -18,7 +18,6 @@
     - [高速なべき乗計算](#高速なべき乗計算)
     - [逆元を使う問題](#逆元を使う問題)
     - [累積和](#累積和)
-    - [しゃくとり法](#しゃくとり法)
   - [動的計画法超入門！ Educational DP Contest の A ～ E 問題の解説と類題集](#動的計画法超入門-educational-dp-contest-の-a--e-問題の解説と類題集)
   - [Educational DP Contest / DP まとめコンテスト](#educational-dp-contest--dp-まとめコンテスト)
   - [Typical DP Contest](#typical-dp-contest)
@@ -264,27 +263,11 @@
 
 ### 累積和
 
-- [x] [全国統一プログラミング王決定戦本戦 A](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a)
-- [x] [JOI2010本選 A](https://atcoder.jp/contests/joi2010ho/tasks/joi2010ho_a)
-- [x] [JOI2011本選 A](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)
-- [x] [ABC106 D](https://atcoder.jp/contests/abc106/tasks/abc106_d)
-- [x] [GigaCode2019 D](https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d)
-  - [x] [JOI2006/2007本選 A]
-  - [x] [ABC084 D]
-  - [x] [ABC122 C]
-  - [x] [AGC023 A]
-  - [x] [ABC005 D]
-
-### しゃくとり法
-
-- [x] DSL 3-C
-- [x] ABC032 C
-- [x] ABC038 C
-- [x] ARC022 B
-- [ ] ABC098 D
-- [ ] ABC017 D
-- [ ] JOI2013/2014 本選 C
-- [ ] JOI2017/2018 予選 E
+- [x] 076. [全国統一プログラミング王決定戦本戦 A](https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a)
+- [x] 077. [JOI2010本選 A](https://atcoder.jp/contests/joi2010ho/tasks/joi2010ho_a)
+- [x] 078. [JOI2011本選 A](https://atcoder.jp/contests/joi2011ho/tasks/joi2011ho1)
+- [x] 079. [ABC106 D](https://atcoder.jp/contests/abc106/tasks/abc106_d)
+- [x] 080. [GigaCode2019 D](https://atcoder.jp/contests/gigacode-2019/tasks/gigacode_2019_d)
 
 ---
 
@@ -611,7 +594,7 @@
 
 - [x] [DSL3-C](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_3_C&lang=jp)
 - [x] [ABC032 C](https://atcoder.jp/contests/abc032/tasks/abc032_c)
-- [ ] [ABC038 C](https://atcoder.jp/contests/abc038/tasks/abc038_c)
+- [x] [ABC038 C](https://atcoder.jp/contests/abc038/tasks/abc038_c)
 - [x] [ARC022 B](https://atcoder.jp/contests/arc022/tasks/arc022_2)
 - [x] [ABC098 D](https://atcoder.jp/contests/abc098/tasks/arc098_b)
 - [ ] [ABC017 D]()
