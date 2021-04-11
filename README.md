@@ -184,19 +184,19 @@
 ### 深さ優先探索
 
 - [ ] 024. ALDS 11-B
-- [ ] 025. AOJ1160
+- [ ] 025. [AOJ1160](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1160)
 - [ ] 026. ABC138 D
-- [ ] 027. JOI2009 予選 4
-- [ ] [ABC029 C](https://atcoder.jp/contests/abc029/tasks/abc029_c)
+- [x] 027. [JOI2009 予選4](https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d)
+- [x] [ABC029 C](https://atcoder.jp/contests/abc029/tasks/abc029_c)
 
 ### 幅優先探索
 
 - [ ] 028. ALDS 11-C
-- [ ] 029. ABC007 C
-- [ ] 030. JOI2011 予選 5
-- [ ] 031. JOI2012 予選 5
+- [x] 029. [ABC007 C](https://atcoder.jp/contests/abc007/tasks/abc007_3)
+- [x] 030. [JOI2011 予選5](https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e)
+- [ ] 031. JOI2012 予選5
 - [ ] 032. AOJ 1166
-- [ ] 033. ABC088 D
+- [x] 033. [ABC088 D](https://atcoder.jp/contests/abc088/tasks/abc088_d)
 
 ### 動的計画法
 
