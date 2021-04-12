@@ -246,18 +246,18 @@
 
 ### 高速な素数判定
 
-- [ ] 068. NTL 1-B
-- [ ] 069. ABC084 D
+- [x] 068. [NTL 1-B](https://onlinejudge.u-aizu.ac.jp/courses/library/6/NTL/1/NTL_1_B)
+- [x] 069. [ABC084 D](https://atcoder.jp/contests/abc084/tasks/abc084_d)
 
 ### 高速なべき乗計算
 
 - [x] 070. [NTL 1-B](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_B&lang=ja)
-- [ ] 071. [Square869120Contest#1 E](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e)
+- [x] 071. [Square869120Contest#1 E](https://atcoder.jp/contests/s8pc-1/tasks/s8pc_1_e)
   
 ### 逆元を使う問題
 
-- [ ] 072. [ABC034 C](https://atcoder.jp/contests/abc034/tasks/abc034_c)
-- [ ] 073. [ABC145 D](https://atcoder.jp/contests/abc145/tasks/abc145_d)
+- [x] 072. [ABC034 C](https://atcoder.jp/contests/abc034/tasks/abc034_c)
+- [x] 073. [ABC145 D](https://atcoder.jp/contests/abc145/tasks/abc145_d)
 - [x] 074. [ABC021 D](https://atcoder.jp/contests/abc021/tasks/abc021_d)
 - [ ] 075. [ABC149 F]()
 

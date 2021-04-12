@@ -11,22 +11,22 @@ const ll INF_L = 1LL << 60;
 const int INF_I = 1 << 30;
 const int MOD = (int)1e9 + 7;
 const double PI = acos(-1);
-int dx[] = {1, 0, -1, 0};
-int dy[] = {0, -1, 0, 1};
+int dx[] = {1, 0, -1, 0, 1, 1, -1, -1};
+int dy[] = {0, -1, 0, 1, 1, -1, -1, 1};
 
 int main()
 {
-    int n, m;
-    cin >> n >> m;
-    vector<ll> x(m);
-    rep(i, m) cin >> x[i];
+    int n;
+    cin >> n;
 
-    sort(all(x));
-    vector<int> sub(m - 1);
-    rep(i, m - 1) sub[i] = x[i + 1] - x[i];
-    sort(all(sub));
     int ans = 0;
-    rep(i, m - n) ans += sub[i];
+    for (int i = 1; i <= n / 2; i++)
+    {
+        int j = n - i;
+        ans++;
+        if (i != j)
+            ans++;
+    }
 
     cout << ans << "\n";
     return 0;
